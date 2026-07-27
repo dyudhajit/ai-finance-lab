@@ -32,7 +32,7 @@ nav:
   - Start Here:
       - About AI Finance Lab: about.md
       - Learning Roadmap: learning-roadmap.md
-      - Resources: resources.md
+      - Self-learning Resources: resources.md
       - Contribute: contribute.md
 
   - Finance Foundations:
@@ -77,7 +77,6 @@ nav:
   #         - About the Models: about Models.md
 
   - Case Studies:
-
       - Breville Group:
           - About the Case Study: Case Study/Breville/about BRG.md
   #         - About the Annual Report: Case Study/Breville/about AR.md
@@ -90,5 +89,16 @@ nav:
             - Merger Strategy: Case Study/Breville/Prompt Outputs/prompt merger strategy.md
           - AI Model Assessment:
             - Financial Model v1: Case Study/Breville/Models/AI Output/FM/AI FM Assessment v1.md
+  
+  # - 4MATR Resources:
+  #    - 
+
+
+  # - 4MATR Community:
+  #     - 
+
+  - Newsletter:
+      - The 4MATR Brief: Newsletter/newsletter_index.md
+      - Issue 0  - Welcome: Newsletter/issue-00-welcome.md
 
           

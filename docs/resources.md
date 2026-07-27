@@ -1,4 +1,4 @@
-# Resources
+# Self-learning Resources
 
 ## Curated Resources for AI-Enabled Finance Professionals
 
