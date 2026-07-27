@@ -1,4 +1,4 @@
-# Issue #0 — Welcome to 4MATR
+# Issue #0 — Welcome to The 4MATR Brief
 
 ## Building the next generation of finance professionals
 

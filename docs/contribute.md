@@ -144,25 +144,23 @@ AI Finance Lab reserves the right to edit, improve, or organize contributions to
 
 ## How to Contribute
 
-Currently, contributions can be made by contacting [Yudhajit Datta](https://www.linkedin.com/in/yudhajitdatta). Suggested topics:
+Currently, contributions to the AI Finance Lab can be made by contacting [Yudhajit Datta](https://www.linkedin.com/in/yudhajitdatta). Suggested topics for outreach:
 
-1. Opening a discussion
+1. Managing a discussion forum
 2. Sharing ideas and suggestions
 3. Proposing educational content
-4. Collaborating on specific projects
+4. Collaborating on specific project builds
 
-Future versions will introduce structured contribution workflows.
+Future versions of the Lab will introduce structured contribution workflows.
 
 ---
 
 ## Join the 4MATR Community
 
-Interested in contributing?
+Connect with community building AI Finance Lab by:
 
-Connect with AI Finance Lab through:
-
-- [4MATR LinkedIn](https://www.linkedin.com/company/142918188/admin/dashboard/) community conversations
-- Contact [Yudhajit](https://www.linkedin.com/in/yudhajitdatta) for direct collaboration opportunities
+- Following [4MATR Academy](https://www.linkedin.com/company/142918188/admin/dashboard/) on Linkedin
+- Contacting [Yudhajit](https://www.linkedin.com/in/yudhajitdatta) for direct collaboration opportunities
 
 Together, let's build a practical learning ecosystem for the next generation of finance professionals.
 
