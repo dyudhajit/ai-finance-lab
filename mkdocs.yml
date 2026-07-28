@@ -35,26 +35,27 @@ nav:
       - Self-learning Resources: resources.md
       - Contribute: contribute.md
 
-  - Finance Foundations:
-      - Accounting Fundamentals:
-          - Overview: Accounting Fundamentals/learn Accounting fundamentals.md
+  - Learn:
+    - Finance Foundations:
+        - Accounting Fundamentals:
+            - Overview: Accounting Fundamentals/learn Accounting fundamentals.md
 
-      - Finance Fundamentals:
-          - Overview: Finance Fundamentals/learn FSA fundamentals.md
+        - Finance Fundamentals:
+            - Overview: Finance Fundamentals/learn FSA fundamentals.md
 
-      - Modelling Fundamentals:
-          - Overview: Modelling Fundamentals/learn Modelling fundamentals.md
-          - FM Mechanics: Modelling Fundamentals/learn FM mechanics.md
-          - DCF Mechanics: Modelling Fundamentals/learn DCF mechanics.md
-          - LBO Mechanics: Modelling Fundamentals/learn LBO mechanics.md
-          - Merger Mechanics: Modelling Fundamentals/learn Merger mechanics.md
+        - Modelling Fundamentals:
+            - Overview: Modelling Fundamentals/learn Modelling fundamentals.md
+            - FM Mechanics: Modelling Fundamentals/learn FM mechanics.md
+            - DCF Mechanics: Modelling Fundamentals/learn DCF mechanics.md
+            - LBO Mechanics: Modelling Fundamentals/learn LBO mechanics.md
+            - Merger Mechanics: Modelling Fundamentals/learn Merger mechanics.md
 
-  - AI Foundations:
-      - AI Fundamentals:
-          - Overview: AI Fundamentals/learn AI Fundamentals.md
-          - Prompt Engineering : AI Fundamentals/learn Prompt Engineering.md
-          - AI Model Auditing : AI Fundamentals/learn AI Model Auditing.md
-          - AI-Assisted Financial Modelling : AI Fundamentals/learn AI Assisted Modelling.md
+    - AI Foundations:
+        - AI Fundamentals:
+            - Overview: AI Fundamentals/learn AI Fundamentals.md
+            - Prompt Engineering : AI Fundamentals/learn Prompt Engineering.md
+            - AI Model Auditing : AI Fundamentals/learn AI Model Auditing.md
+            - AI-Assisted Financial Modelling : AI Fundamentals/learn AI Assisted Modelling.md
 
   # - Financial Modelling:
 
@@ -90,12 +91,13 @@ nav:
           - AI Model Assessment:
             - Financial Model v1: Case Study/Breville/Models/AI Output/FM/AI FM Assessment v1.md
   
-  # - 4MATR Resources:
-  #    - 
+  - 4MATR Resources:
+     - AI Finance Handbook:
+          - Chapter 1: 4MATR Resources/AI Finance Handbook/Chapter 01.md
 
 
-  # - 4MATR Community:
-  #     - 
+  - 4MATR Community:
+      - AI Finance Guild:
 
   - Newsletter:
       - The 4MATR Brief: Newsletter/newsletter_index.md
