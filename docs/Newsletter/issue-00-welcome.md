@@ -60,7 +60,7 @@ Every newsletter issue follows five pillars:
 
 ## Read the Full Newsletter
 
-➡️ [Read on Beehiiv](https://yujs-newsletter.beehiiv.com/p/the-4matr-brief-6ef71d86ab76530b)
+➡️ [Read Issue #0 on Beehiiv](https://yujs-newsletter.beehiiv.com/p/the-4matr-brief-6ef71d86ab76530b)
 
 ---
 
