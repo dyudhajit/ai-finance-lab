@@ -121,7 +121,7 @@ In this issue, we apply these concepts to a real business and examine:
 
 ## Next Issue
 
-### Issue #2:
+Issue #2:
 
 **How Businesses Create Value**
 
