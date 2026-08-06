@@ -42,15 +42,15 @@ That distinction is one of the biggest lessons every finance professional eventu
 |----------|------:|
 | Structure | 7/10 |
 | Formatting | 8/10 |
-| Formula Consistency | 8/10 |
+| Formula Consistency | 7/10 |
 | Accounting Accuracy | 7/10 |
 | Forecast Methodology | 5/10 |
 | Model Flexibility | 5/10 |
-| Banking Readiness | 6/10 |
+| Banking Readiness | 5/10 |
 
 ### Overall Rating
 
-**6/10**
+**6.0/10**
 
 A strong AI-generated draft.
 

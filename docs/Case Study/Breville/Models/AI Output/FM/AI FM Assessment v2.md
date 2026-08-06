@@ -285,19 +285,9 @@ This is the most important limitation.
 
 One of the primary tests of an integrated financial model is whether the **Balance Sheet balances**.
 
-Every professional model should include a visible balance sheet check:
+Every professional model should include a visibly highlighted balance sheet check:
 
-Assets
-
-−
-
-Liabilities
-
-−
-
-Equity
-
-= 0
+Assets − Liabilities − Equity = 0
 
 This is also one of the areas where AI-generated models most commonly fail.
 
@@ -386,7 +376,7 @@ Assumptions & Operating Drivers
               │
               ▼
  Ratios, Valuation & Sensitivities
- 
+
 ```
 
 This structure reflects how a professional investment banking model actually operates. The Income Statement drives the supporting schedules, the schedules determine cash flow and ending balance sheet positions, and the financing schedules (debt and equity) influence both the Cash Flow Statement and future Income Statement items such as interest expense and earnings per share.
