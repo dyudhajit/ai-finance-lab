@@ -1,8 +1,10 @@
-# AI FM Assessment
+# AI FM Assessment - v1
 
 ## Breville Financial Model (v1)
+
 ### AI Model Assessment & Walkthrough
-*Perspective: Investment Banking Associate (M&A / ECM)*
+
+*Perspective: Investment Banking Associate (M&A)*
 
 ---
 
@@ -38,7 +40,7 @@ That distinction is one of the biggest lessons every finance professional eventu
 
 | Category | Score |
 |----------|------:|
-| Structure | 9/10 |
+| Structure | 7/10 |
 | Formatting | 8/10 |
 | Formula Consistency | 8/10 |
 | Accounting Accuracy | 7/10 |

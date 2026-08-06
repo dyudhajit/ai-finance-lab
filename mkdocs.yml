@@ -57,30 +57,9 @@ nav:
             - AI Model Auditing : AI Fundamentals/learn AI Model Auditing.md
             - AI-Assisted Financial Modelling : AI Fundamentals/learn AI Assisted Modelling.md
 
-  # - Financial Modelling:
-
-  #     - Modelling :
-  #         - Financial Modelling: learn FM modelling.md
-  #         - DCF: learn DCF mechanics.md
-  #         - LBO: learn LBO mechanics.md
-          # - Merger Modelling: Modelling Fundamentals/learn Merger mechanics.md
-
-  #     - Building Models:
-  #         - Financial Model: FM/9. learn FM modelling.md
-  #         - DCF Model: DCF/10. learn DCF modelling.md
-  #         - LBO Model: LBO/11. learn LBO modelling.md
-  #         - Merger Model: Merger/12. learn merger modelling.md
-
-  #     - Best Practices:
-  #         - Model Auditing: 2. learn auditing.md
-  #         - Model Balancing: 3. learn balancing.md
-  #         - Model Formatting: 4. learn formatting.md
-  #         - About the Models: about Models.md
-
   - Case Studies:
       - Breville Group:
           - About the Case Study: Case Study/Breville/about BRG.md
-  #         - About the Annual Report: Case Study/Breville/about AR.md
           - Annual Report (PDF): Case Study/Breville/Annual Report/Breville-Annual-Report-2025.pdf
           - YahooFinance Financials Export (XLSX): Case Study/Breville/Data/BRG.AX Financials.xlsx
           - Preliminary AI Assessment: 
@@ -89,7 +68,8 @@ nav:
             - LBO Strategy: Case Study/Breville/Prompt Outputs/prompt LBO strategy.md
             - Merger Strategy: Case Study/Breville/Prompt Outputs/prompt merger strategy.md
           - AI Model Assessment:
-            - Financial Model v1: Case Study/Breville/Models/AI Output/FM/AI FM Assessment v1.md
+            - AI Financial Model v1: Case Study/Breville/Models/AI Output/FM/AI FM Assessment v1.md
+            - AI Financial Model v2: Case Study/Breville/Models/AI Output/FM/AI FM Assessment v2.md
   
   - 4MATR Resources:
      - AI Finance Handbook:

@@ -1,4 +1,4 @@
-# Issue #1 — Understanding Financial Statements
+# Issue #1 — Connecting The Dots
 
 ## How Analysts Read the Story Behind a Business
 
