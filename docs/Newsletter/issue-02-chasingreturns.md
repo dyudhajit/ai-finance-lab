@@ -6,7 +6,7 @@
 
 ---
 
-# Overview
+## Overview
 
 Growth is one of the most misunderstood concepts in finance.
 
@@ -20,9 +20,9 @@ This issue introduces return on capital as the central framework for evaluating 
 
 ---
 
-# Key Ideas
+## Key Ideas
 
-## 1. Growth Does Not Automatically Create Value
+### 1. Growth Does Not Automatically Create Value
 
 Every investment made by a company has a cost.
 
@@ -40,7 +40,7 @@ Growth only creates value when the returns earned on new investments exceed the 
 
 ---
 
-## 2. The Return That Matters Is the Next One
+### 2. The Return That Matters Is the Next One
 
 Historical return on capital tells us how successful a business has been.
 
@@ -56,7 +56,7 @@ Understanding this difference is essential for evaluating future value creation.
 
 ---
 
-## 3. Capital Allocation Is the Hidden Engine of Compounding
+### 3. Capital Allocation Is the Hidden Engine of Compounding
 
 Great businesses share one characteristic:
 
@@ -73,7 +73,7 @@ The best investors spend as much time evaluating **capital allocation** as they 
 
 ---
 
-## 4. The 4MATR Return Framework
+### 4. The 4MATR Return Framework
 
 When analysing any business, focus on four questions:
 
@@ -88,7 +88,7 @@ This framework is fundamental to valuation, equity research, private equity, and
 
 ---
 
-# Practical Application
+## Practical Application
 
 In this issue, we explore:
 
@@ -99,15 +99,15 @@ In this issue, we explore:
 
 ---
 
-# Read the Full Newsletter
+## Read the Full Newsletter
 
 ➡️ [Read Issue #2 on Beehiiv](https://yujs-newsletter.beehiiv.com/p/chasing-returns)
 
 ---
 
-# Next Issue
+## Next Issue
 
-## Issue #3:
+Issue #3
 
 **The EBITDA Illusion**
 
