@@ -159,7 +159,7 @@ Future versions of the Lab will introduce structured contribution workflows.
 
 Connect with community building AI Finance Lab by:
 
-- Following [4MATR Academy](https://www.linkedin.com/company/142918188/admin/dashboard/) on Linkedin
+- Following [4MATR Academy](https://www.linkedin.com/company/4matr-academy) on Linkedin
 - Contacting [Yudhajit](https://www.linkedin.com/in/yudhajitdatta) for direct collaboration opportunities
 
 Together, let's build a practical learning ecosystem for the next generation of finance professionals.

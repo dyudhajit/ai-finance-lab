@@ -81,7 +81,7 @@ Have thoughtful conversations around:
 
 Engaging with the 4MATR Academy LinkedIn page is the very first step you can take to getting involved with the 4MATR Academy - AI Finance Community.
 
-1. Follow **[4MATR Academy  - LinkedIn](https://www.linkedin.com/company/4matr-academy/)**
+1. Follow **[4MATR Academy  - LinkedIn](https://www.linkedin.com/company/4matr-academy)**
 (Follow our LinkedIn Page to stay up to date on updates from the 4MATR Academy)
 2. Join **[4MATR Academy - AI Finance Community](https://chat.whatsapp.com/Lagy0uyrVNPI3GvFMWpqow?s=sh&p=i&ilr=2)**
 (Join our Public WhatsApp Group of curious learners to discuss anything AI Finance)
