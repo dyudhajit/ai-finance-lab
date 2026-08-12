@@ -1244,7 +1244,7 @@ Examples:
 
 ### Chapter 2
 
-### The AI-First Engineering Mindset
+#### The AI-First Engineering Mindset
 
 In the next chapter, we explore the fundamental shift required to work effectively with artificial intelligence:
 
