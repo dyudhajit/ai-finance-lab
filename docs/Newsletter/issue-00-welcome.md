@@ -2,7 +2,7 @@
 
 ## Building the next generation of finance professionals
 
-Published: July 2026
+**Published: July 2026**
 
 ---
 
