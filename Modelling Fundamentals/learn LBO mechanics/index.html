@@ -1,0 +1,3707 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Building the next generation of AI-enabled finance professionals">
+      
+      
+      
+      
+        <link rel="prev" href="../learn%20DCF%20mechanics/">
+      
+      
+        <link rel="next" href="../learn%20Merger%20mechanics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/4MATR Favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>LBO Mechanics - AI Finance Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#leveraged-buyout-lbo-mechanics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AI Finance Lab" class="md-header__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Finance Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LBO Mechanics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AI Finance Lab" class="md-nav__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    AI Finance Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start Here
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Start Here
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About AI Finance Lab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Self-learning Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learn
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learn
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounting Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Accounting Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting%20Fundamentals/learn%20Accounting%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_2" id="__nav_3_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finance%20Fundamentals/learn%20FSA%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_3" id="__nav_3_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelling Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelling Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20Modelling%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20FM%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20DCF%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Mechanics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-how-private-equity-investors-evaluate-acquisitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding How Private Equity Investors Evaluate Acquisitions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-core-idea-behind-an-lbo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Core Idea Behind an LBO
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Use Debt?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Use Debt?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acquisition-without-debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acquisition Without Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acquisition-with-debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acquisition With Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-main-components-of-an-lbo-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Main Components of an LBO Model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-transaction-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Transaction Assumptions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Transaction Assumptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purchase-price" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchase Price
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entry-valuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entry Valuation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financing-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financing Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Financing Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sources-and-uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Sources and Uses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Sources and Uses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-operating-forecast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Operating Forecast
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Operating Forecast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revenue-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revenue Growth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ebitda-margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EBITDA Margin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cash-flow-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cash Flow Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-debt-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Debt Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debt-paydown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt Paydown
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Debt Paydown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cash-flow-generation_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cash Flow Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debt-reduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt Reduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#increased-equity-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Increased Equity Value
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-exit-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Exit Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Exit Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exit-enterprise-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exit Enterprise Value
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equity-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity Value
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-investor-returns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measuring Investor Returns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measuring Investor Returns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internal-rate-of-return-irr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Internal Rate of Return (IRR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-of-money-mom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple of Money (MoM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources-of-lbo-returns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources of LBO Returns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sources of LBO Returns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ebitda-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. EBITDA Growth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-multiple-expansion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Multiple Expansion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-debt-paydown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Debt Paydown
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lbo-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LBO Risks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LBO Risks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#excessive-leverage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Excessive Leverage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poor-operating-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Poor Operating Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-compression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Compression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interest-rate-risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interest Rate Risk
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lbo-modelling-and-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LBO Modelling and AI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#try-it-yourself-breville-case-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Try It Yourself — Breville Case Study
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20Merger%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20AI%20Fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20Prompt%20Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompt Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20AI%20Model%20Auditing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Auditing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20AI%20Assisted%20Modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI-Assisted Financial Modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Case Studies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Case Studies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breville Group
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Breville Group
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/about%20BRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About the Case Study
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Annual%20Report/Breville-Annual-Report-2025.pdf" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annual Report (PDF)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Data/BRG.AX%20Financials.xlsx" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YahooFinance Financials Export (XLSX)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_4" id="__nav_4_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preliminary AI Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Preliminary AI Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20FM%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20DCF%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20LBO%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20merger%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_5" id="__nav_4_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Model Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Models/AI%20Output/FM/AI%20FM%20Assessment%20v1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Models/AI%20Output/FM/AI%20FM%20Assessment%20v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Engineering Handbook
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Financial Engineering Handbook
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4MATR%20Resources/AI%20Finance%20Handbook/Chapter%2001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4MATR%20Resources/AI%20Finance%20Handbook/Chapter%2002/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4MATR%20Community/ai-finance-community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Finance Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Newsletter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Newsletter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/newsletter_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 4MATR Brief
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-00-welcome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 0  - Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-01-connectingdots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 1  - Connecting The Dots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-02-chasingreturns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 2  - Chasing Returns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-03-ebitdafantasy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 3  - The EBITDA Fantasy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-how-private-equity-investors-evaluate-acquisitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding How Private Equity Investors Evaluate Acquisitions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-core-idea-behind-an-lbo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Core Idea Behind an LBO
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Use Debt?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Use Debt?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acquisition-without-debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acquisition Without Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acquisition-with-debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acquisition With Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-main-components-of-an-lbo-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Main Components of an LBO Model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-transaction-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Transaction Assumptions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Transaction Assumptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purchase-price" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchase Price
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entry-valuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entry Valuation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financing-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financing Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Financing Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sources-and-uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Sources and Uses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Sources and Uses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-operating-forecast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Operating Forecast
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Operating Forecast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revenue-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revenue Growth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ebitda-margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EBITDA Margin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cash-flow-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cash Flow Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-debt-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Debt Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debt-paydown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt Paydown
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Debt Paydown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cash-flow-generation_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cash Flow Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debt-reduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt Reduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#increased-equity-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Increased Equity Value
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-exit-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Exit Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Exit Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exit-enterprise-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exit Enterprise Value
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equity-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity Value
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-investor-returns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measuring Investor Returns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measuring Investor Returns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internal-rate-of-return-irr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Internal Rate of Return (IRR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-of-money-mom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple of Money (MoM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources-of-lbo-returns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources of LBO Returns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sources of LBO Returns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ebitda-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. EBITDA Growth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-multiple-expansion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Multiple Expansion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-debt-paydown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Debt Paydown
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lbo-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LBO Risks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LBO Risks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#excessive-leverage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Excessive Leverage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poor-operating-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Poor Operating Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-compression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Compression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interest-rate-risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interest Rate Risk
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lbo-modelling-and-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LBO Modelling and AI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#try-it-yourself-breville-case-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Try It Yourself — Breville Case Study
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="leveraged-buyout-lbo-mechanics">Leveraged Buyout (LBO) Mechanics</h1>
+<h2 id="understanding-how-private-equity-investors-evaluate-acquisitions">Understanding How Private Equity Investors Evaluate Acquisitions</h2>
+<p>A Leveraged Buyout (LBO) is a transaction where an investor acquires a company using a combination of:</p>
+<ul>
+<li>Equity capital</li>
+<li>Debt financing</li>
+</ul>
+<p>The fundamental question an LBO analysis answers is:</p>
+<blockquote>
+<p>Can an investor acquire a company, improve its performance, reduce debt, and generate an attractive return?</p>
+</blockquote>
+<p>LBO models are widely used by:</p>
+<ul>
+<li>Private Equity firms</li>
+<li>Investment banks</li>
+<li>Corporate development teams</li>
+<li>Financial sponsors</li>
+</ul>
+<hr />
+<h2 id="the-core-idea-behind-an-lbo">The Core Idea Behind an LBO</h2>
+<p>In a traditional acquisition, investors primarily rely on business value creation.</p>
+<p>In an LBO, investors use financial leverage to enhance returns.</p>
+<p>The basic concept:</p>
+<div class="highlight"><pre><span></span><code>Purchase Company
+        ↓
+Use Debt + Equity Financing
+        ↓
+Improve Business Performance
+        ↓
+Generate Cash Flow
+        ↓
+Repay Debt
+        ↓
+Sell Company
+        ↓
+Generate Investor Returns
+</code></pre></div>
+<hr />
+<h2 id="why-use-debt">Why Use Debt?</h2>
+<p>Debt can increase investor returns because investors contribute less equity capital upfront.</p>
+<p>Example:</p>
+<h3 id="acquisition-without-debt">Acquisition Without Debt</h3>
+<p>Company Purchase Price:</p>
+<p>$100 million</p>
+<p>Investor Equity:</p>
+<p>$100 million</p>
+<hr />
+<h3 id="acquisition-with-debt">Acquisition With Debt</h3>
+<p>Company Purchase Price:</p>
+<p>$100 million</p>
+<p>Debt:</p>
+<p>$60 million</p>
+<p>Investor Equity:</p>
+<p>$40 million</p>
+<p>The investor controls the same business with less initial capital.</p>
+<p>However, debt also increases risk because the company must make interest and principal payments.</p>
+<hr />
+<h2 id="the-main-components-of-an-lbo-model">The Main Components of an LBO Model</h2>
+<p>An LBO model typically includes:</p>
+<ol>
+<li>Transaction Assumptions</li>
+<li>Sources and Uses</li>
+<li>Operating Forecast</li>
+<li>Debt Schedule</li>
+<li>Investor Returns Analysis</li>
+</ol>
+<hr />
+<h2 id="1-transaction-assumptions">1. Transaction Assumptions</h2>
+<p>The first step is defining the acquisition terms.</p>
+<p>Key assumptions include:</p>
+<h3 id="purchase-price">Purchase Price</h3>
+<p>The amount paid to acquire the company.</p>
+<p>Usually expressed as an:</p>
+<p>Enterprise Value</p>
+<p>or</p>
+<p>EV / EBITDA multiple</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>Purchase Price = 10.0x EBITDA
+</code></pre></div>
+<hr />
+<h3 id="entry-valuation">Entry Valuation</h3>
+<p>Investors evaluate whether the acquisition price is reasonable.</p>
+<p>Common metrics:</p>
+<ul>
+<li>Enterprise Value</li>
+<li>EBITDA</li>
+<li>EV / EBITDA multiple</li>
+<li>Revenue multiple</li>
+</ul>
+<hr />
+<h3 id="financing-structure">Financing Structure</h3>
+<p>The transaction is funded through:</p>
+<h4 id="debt">Debt</h4>
+<p>Examples:</p>
+<ul>
+<li>Term loans</li>
+<li>Senior debt</li>
+<li>Subordinated debt</li>
+</ul>
+<h4 id="equity">Equity</h4>
+<p>Capital contributed by investors.</p>
+<hr />
+<h2 id="2-sources-and-uses">2. Sources and Uses</h2>
+<p>The Sources and Uses section answers:</p>
+<blockquote>
+<p>Where does the money come from, and where does it go?</p>
+</blockquote>
+<h3 id="uses">Uses</h3>
+<p>Money required for the transaction:</p>
+<ul>
+<li>Purchase of equity</li>
+<li>Refinancing existing debt</li>
+<li>Transaction fees</li>
+<li>Advisory costs</li>
+</ul>
+<hr />
+<h3 id="sources">Sources</h3>
+<p>Funding available:</p>
+<ul>
+<li>New debt</li>
+<li>Investor equity</li>
+</ul>
+<p>The fundamental relationship:</p>
+<div class="highlight"><pre><span></span><code>Total Sources = Total Uses
+</code></pre></div>
+<p>A balanced sources and uses table is a critical LBO modelling check.</p>
+<hr />
+<h2 id="3-operating-forecast">3. Operating Forecast</h2>
+<p>The LBO depends on the company's ability to generate cash.</p>
+<p>The model forecasts:</p>
+<h3 id="revenue-growth">Revenue Growth</h3>
+<p>Questions:</p>
+<ul>
+<li>Can the company grow sales?</li>
+<li>Are growth assumptions realistic?</li>
+</ul>
+<hr />
+<h3 id="ebitda-margin">EBITDA Margin</h3>
+<p>Questions:</p>
+<ul>
+<li>Can profitability improve?</li>
+<li>Are there operational efficiencies?</li>
+</ul>
+<hr />
+<h3 id="cash-flow-generation">Cash Flow Generation</h3>
+<p>Cash flow determines how quickly debt can be repaid.</p>
+<p>Key drivers:</p>
+<ul>
+<li>EBITDA</li>
+<li>Taxes</li>
+<li>Capital expenditure</li>
+<li>Working capital changes</li>
+</ul>
+<hr />
+<h2 id="4-debt-schedule">4. Debt Schedule</h2>
+<p>Debt repayment is one of the most important parts of an LBO.</p>
+<p>The debt schedule tracks:</p>
+<ul>
+<li>Beginning debt balance</li>
+<li>New borrowing</li>
+<li>Mandatory repayments</li>
+<li>Optional repayments</li>
+<li>Interest expense</li>
+<li>Ending debt balance</li>
+</ul>
+<hr />
+<h2 id="debt-paydown">Debt Paydown</h2>
+<p>A successful LBO typically creates value through:</p>
+<h3 id="cash-flow-generation_1">Cash Flow Generation</h3>
+<p>The business generates cash.</p>
+<p>↓</p>
+<h3 id="debt-reduction">Debt Reduction</h3>
+<p>Cash is used to repay debt.</p>
+<p>↓</p>
+<h3 id="increased-equity-value">Increased Equity Value</h3>
+<p>Lower debt increases the value attributable to shareholders.</p>
+<hr />
+<h2 id="5-exit-analysis">5. Exit Analysis</h2>
+<p>After holding the investment for several years, investors sell the company.</p>
+<p>The model calculates:</p>
+<h3 id="exit-enterprise-value">Exit Enterprise Value</h3>
+<p>Usually based on:</p>
+<div class="highlight"><pre><span></span><code>Exit EBITDA × Exit Multiple
+</code></pre></div>
+<hr />
+<h3 id="equity-value">Equity Value</h3>
+<p>The value remaining after paying debt.</p>
+<div class="highlight"><pre><span></span><code>Equity Value =
+Enterprise Value - Debt
+</code></pre></div>
+<hr />
+<h2 id="measuring-investor-returns">Measuring Investor Returns</h2>
+<p>The two primary LBO return metrics are:</p>
+<h3 id="internal-rate-of-return-irr">Internal Rate of Return (IRR)</h3>
+<p>Measures the annualised return generated by the investment.</p>
+<p>It considers:</p>
+<ul>
+<li>Initial investment</li>
+<li>Holding period</li>
+<li>Final proceeds</li>
+</ul>
+<hr />
+<h3 id="multiple-of-money-mom">Multiple of Money (MoM)</h3>
+<p>Measures how many times the original investment has grown.</p>
+<p>Formula:</p>
+<div class="highlight"><pre><span></span><code>MoM =
+Exit Equity Value /
+Initial Equity Investment
+</code></pre></div>
+<p>Example:</p>
+<p>An investment grows from:</p>
+<p>$100 million</p>
+<p>to</p>
+<p>$250 million</p>
+<p>MoM:</p>
+<p>2.5x</p>
+<hr />
+<h2 id="sources-of-lbo-returns">Sources of LBO Returns</h2>
+<p>Private equity investors typically create value through three sources:</p>
+<h3 id="1-ebitda-growth">1. EBITDA Growth</h3>
+<p>The company becomes more profitable.</p>
+<p>Example:</p>
+<p>EBITDA increases from $50m to $80m.</p>
+<hr />
+<h3 id="2-multiple-expansion">2. Multiple Expansion</h3>
+<p>The market values the company at a higher multiple.</p>
+<p>Example:</p>
+<p>Entry:</p>
+<p>8.0x EBITDA</p>
+<p>Exit:</p>
+<p>10.0x EBITDA</p>
+<hr />
+<h3 id="3-debt-paydown">3. Debt Paydown</h3>
+<p>The company reduces debt using generated cash flow.</p>
+<hr />
+<h2 id="lbo-risks">LBO Risks</h2>
+<p>LBOs can create attractive returns, but they also introduce risks.</p>
+<h3 id="excessive-leverage">Excessive Leverage</h3>
+<p>Too much debt can limit financial flexibility.</p>
+<hr />
+<h3 id="poor-operating-performance">Poor Operating Performance</h3>
+<p>If EBITDA declines, debt repayment becomes difficult.</p>
+<hr />
+<h3 id="multiple-compression">Multiple Compression</h3>
+<p>A lower exit valuation multiple can reduce investor returns.</p>
+<hr />
+<h3 id="interest-rate-risk">Interest Rate Risk</h3>
+<p>Higher borrowing costs can reduce cash flow.</p>
+<hr />
+<h2 id="lbo-modelling-and-ai">LBO Modelling and AI</h2>
+<p>AI can assist with:</p>
+<ul>
+<li>Building initial model structures</li>
+<li>Reviewing formulas</li>
+<li>Explaining debt schedules</li>
+<li>Analysing sensitivity cases</li>
+<li>Documenting assumptions</li>
+</ul>
+<p>However, AI cannot decide:</p>
+<ul>
+<li>Whether leverage is appropriate</li>
+<li>Whether management assumptions are realistic</li>
+<li>Whether the acquisition strategy makes sense</li>
+</ul>
+<p>Those decisions require investment judgement.</p>
+<hr />
+<h2 id="learning-outcomes">Learning Outcomes</h2>
+<p>After completing this module, you should understand:</p>
+<ul>
+<li>What an LBO transaction is</li>
+<li>Why leverage affects returns</li>
+<li>How an LBO model is structured</li>
+<li>How investors generate returns</li>
+<li>Key risks in leveraged acquisitions</li>
+</ul>
+<hr />
+<h2 id="try-it-yourself-breville-case-study">Try It Yourself — Breville Case Study</h2>
+<p>Open the <strong>Breville FY2025 Annual Report</strong> included in this repository under the <strong>Case Studies &gt; Breville Group</strong> section.</p>
+<p>Imagine you are part of a private equity investment team considering the acquisition of Breville.</p>
+<p>Using only the annual report, evaluate:</p>
+<ul>
+<li>Does the business generate stable cash flow?</li>
+<li>Is revenue predictable?</li>
+<li>What opportunities exist to improve profitability?</li>
+<li>Could the company support additional debt?</li>
+<li>What risks would concern a financial sponsor?</li>
+</ul>
+<p>Prepare a short investment memo summarising your findings.</p>
+<blockquote>
+<p><strong>Goal:</strong> Learn to differentiate the thinking of a private equity investor from a public market analyst.</p>
+</blockquote>
+<hr />
+<h2 id="next-steps">Next Steps</h2>
+<p>Continue your learning journey:</p>
+<ol>
+<li>LBO Modelling</li>
+<li>Merger Modelling</li>
+<li>AI-Assisted Financial Modelling</li>
+</ol>
+<p>A strong LBO analyst understands not only the spreadsheet mechanics, but also the investment logic behind every assumption.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,3511 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Building the next generation of AI-enabled finance professionals">
+      
+      
+      
+      
+        <link rel="prev" href="../../../../Prompt%20Outputs/prompt%20merger%20strategy/">
+      
+      
+        <link rel="next" href="../AI%20FM%20Assessment%20v2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../../../assets/4MATR Favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>AI Financial Model v1 - AI Finance Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-fm-assessment-v1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../../.." title="AI Finance Lab" class="md-header__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../../../../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Finance Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Financial Model v1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../../.." title="AI Finance Lab" class="md-nav__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../../../../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    AI Finance Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start Here
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Start Here
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About AI Finance Lab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../learning-roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Self-learning Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../contribute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learn
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learn
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounting Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Accounting Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Accounting%20Fundamentals/learn%20Accounting%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_2" id="__nav_3_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Finance%20Fundamentals/learn%20FSA%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_3" id="__nav_3_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelling Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelling Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Modelling%20Fundamentals/learn%20Modelling%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Modelling%20Fundamentals/learn%20FM%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Modelling%20Fundamentals/learn%20DCF%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Modelling%20Fundamentals/learn%20LBO%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Modelling%20Fundamentals/learn%20Merger%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../AI%20Fundamentals/learn%20AI%20Fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../AI%20Fundamentals/learn%20Prompt%20Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompt Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../AI%20Fundamentals/learn%20AI%20Model%20Auditing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Auditing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../AI%20Fundamentals/learn%20AI%20Assisted%20Modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI-Assisted Financial Modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Case Studies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Case Studies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breville Group
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Breville Group
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about%20BRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About the Case Study
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Annual%20Report/Breville-Annual-Report-2025.pdf" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annual Report (PDF)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Data/BRG.AX%20Financials.xlsx" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YahooFinance Financials Export (XLSX)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_4" id="__nav_4_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preliminary AI Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Preliminary AI Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Prompt%20Outputs/prompt%20FM%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Prompt%20Outputs/prompt%20DCF%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Prompt%20Outputs/prompt%20LBO%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Prompt%20Outputs/prompt%20merger%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_5" id="__nav_4_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Model Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v1
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#breville-financial-model-v1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Breville Financial Model (v1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Breville Financial Model (v1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-model-assessment-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Model Assessment &amp; Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overall-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall Score
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overall Score">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overall-rating" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall Rating
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-impression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Impression
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-ai-did-well" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What AI Did Well
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What AI Did Well">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-clean-financial-statement-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Clean Financial Statement Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-formula-simplicity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Formula Simplicity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-statement-linking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Statement Linking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-readability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Readability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#major-weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Major Weaknesses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Major Weaknesses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-1-revenue-is-growing-mechanically" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 1 — Revenue Is Growing Mechanically
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#better-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Better Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-2-margins-are-static" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 2 — Margins Are Static
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-3-working-capital-forecast-is-oversimplified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 3 — Working Capital Forecast Is Oversimplified
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-4-capital-expenditure-is-not-operationally-driven" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 4 — Capital Expenditure Is Not Operationally Driven
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-5-depreciation-schedule-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5 — Depreciation Schedule Missing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-6-debt-schedule-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 6 — Debt Schedule Missing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-7-share-count-schedule-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 7 — Share Count Schedule Missing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-8-missing-supporting-schedules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 8 — Missing Supporting Schedules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-9-no-scenario-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 9 — No Scenario Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-hallucinations-to-watch-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Hallucinations to Watch For
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-i-were-reviewing-an-analysts-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If I Were Reviewing an Analyst's Work
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="If I Were Reviewing an Analyst&#39;s Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comment-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-ai-gets-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What AI Gets Right
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-ai-cannot-yet-replace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What AI Cannot Yet Replace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-verdict" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Verdict
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-model-assessment-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Model Assessment Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AI%20FM%20Assessment%20v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Engineering Handbook
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Financial Engineering Handbook
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../4MATR%20Resources/AI%20Finance%20Handbook/Chapter%2001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../4MATR%20Resources/AI%20Finance%20Handbook/Chapter%2002/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../4MATR%20Community/ai-finance-community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Finance Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Newsletter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Newsletter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Newsletter/newsletter_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 4MATR Brief
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Newsletter/issue-00-welcome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 0  - Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Newsletter/issue-01-connectingdots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 1  - Connecting The Dots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Newsletter/issue-02-chasingreturns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 2  - Chasing Returns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../Newsletter/issue-03-ebitdafantasy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 3  - The EBITDA Fantasy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#breville-financial-model-v1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Breville Financial Model (v1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Breville Financial Model (v1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-model-assessment-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Model Assessment &amp; Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overall-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall Score
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overall Score">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overall-rating" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall Rating
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-impression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Impression
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-ai-did-well" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What AI Did Well
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What AI Did Well">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-clean-financial-statement-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Clean Financial Statement Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-formula-simplicity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Formula Simplicity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-statement-linking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Statement Linking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-readability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Readability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#major-weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Major Weaknesses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Major Weaknesses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-1-revenue-is-growing-mechanically" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 1 — Revenue Is Growing Mechanically
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#better-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Better Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-2-margins-are-static" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 2 — Margins Are Static
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-3-working-capital-forecast-is-oversimplified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 3 — Working Capital Forecast Is Oversimplified
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-4-capital-expenditure-is-not-operationally-driven" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 4 — Capital Expenditure Is Not Operationally Driven
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-5-depreciation-schedule-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5 — Depreciation Schedule Missing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-6-debt-schedule-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 6 — Debt Schedule Missing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-7-share-count-schedule-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 7 — Share Count Schedule Missing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-8-missing-supporting-schedules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 8 — Missing Supporting Schedules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-9-no-scenario-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 9 — No Scenario Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-hallucinations-to-watch-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Hallucinations to Watch For
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-i-were-reviewing-an-analysts-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If I Were Reviewing an Analyst's Work
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="If I Were Reviewing an Analyst&#39;s Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comment-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-ai-gets-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What AI Gets Right
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-ai-cannot-yet-replace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What AI Cannot Yet Replace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-verdict" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Verdict
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-model-assessment-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Model Assessment Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ai-fm-assessment-v1">AI FM Assessment - v1</h1>
+<h2 id="breville-financial-model-v1">Breville Financial Model (v1)</h2>
+<h3 id="ai-model-assessment-walkthrough">AI Model Assessment &amp; Walkthrough</h3>
+<p><em>Perspective: Investment Banking Associate (M&amp;A)</em></p>
+<hr />
+<h2 id="executive-summary">Executive Summary</h2>
+<p>This is a first-pass <a href="../Breville_Group_FM_v1.xlsx">AI-generated financial model</a>.</p>
+<p>If I received this from a first-year analyst after telling them, <em>"Build me a quick operating model from the annual report,"</em> I would say the model is approximately <strong>50–55% complete</strong>.</p>
+<p>The structure is clean.</p>
+<p>The statements link correctly.</p>
+<p>The model is readable.</p>
+<p>The assumptions are obvious.</p>
+<p>However...</p>
+<p>This is <strong>not yet an institutional-quality investment banking model.</strong></p>
+<p>The biggest issue is that the AI has produced what looks like a <strong>mathematical model</strong> rather than an <strong>economic model</strong>.</p>
+<p>The formulas work.</p>
+<p>The business logic often doesn't.</p>
+<p>That distinction is one of the biggest lessons every finance professional eventually learns.</p>
+<hr />
+<h2 id="overall-score">Overall Score</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th style="text-align: right;">Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Structure</td>
+<td style="text-align: right;">7/10</td>
+</tr>
+<tr>
+<td>Formatting</td>
+<td style="text-align: right;">8/10</td>
+</tr>
+<tr>
+<td>Formula Consistency</td>
+<td style="text-align: right;">7/10</td>
+</tr>
+<tr>
+<td>Accounting Accuracy</td>
+<td style="text-align: right;">7/10</td>
+</tr>
+<tr>
+<td>Forecast Methodology</td>
+<td style="text-align: right;">5/10</td>
+</tr>
+<tr>
+<td>Model Flexibility</td>
+<td style="text-align: right;">5/10</td>
+</tr>
+<tr>
+<td>Banking Readiness</td>
+<td style="text-align: right;">5/10</td>
+</tr>
+</tbody>
+</table>
+<h3 id="overall-rating">Overall Rating</h3>
+<p><strong>6.0/10</strong></p>
+<p>A strong AI-generated draft.</p>
+<p>Not yet ready for client delivery.</p>
+<hr />
+<h2 id="first-impression">First Impression</h2>
+<p>Within about thirty seconds, an Investment Banking Associate would notice several positive things.</p>
+<p>✅ Three financial statements are present.</p>
+<p>✅ Statements are linked together.</p>
+<p>✅ Historical and forecast periods are clearly separated.</p>
+<p>✅ Ratios are calculated separately.</p>
+<p>✅ The model is readable.</p>
+<p>✅ Circular references have been avoided.</p>
+<p>These are exactly the kinds of things junior analysts often struggle with.</p>
+<p>So the AI deserves genuine credit.</p>
+<hr />
+<h2 id="what-ai-did-well">What AI Did Well</h2>
+<h3 id="1-clean-financial-statement-architecture">1. Clean Financial Statement Architecture</h3>
+<p>The model follows the classic investment banking layout.</p>
+<div class="highlight"><pre><span></span><code>Income Statement
+        ↓
+Cash Flow Statement
+        ↓
+Balance Sheet
+</code></pre></div>
+<p>This is exactly how most sell-side models are organised.</p>
+<p>Simple.</p>
+<p>Logical.</p>
+<p>Easy to audit.</p>
+<hr />
+<h3 id="2-formula-simplicity">2. Formula Simplicity</h3>
+<p>Most formulas are easy to understand.</p>
+<p>For example:</p>
+<div class="highlight"><pre><span></span><code>Revenue (t) = Revenue (t-1) × (1 + Growth Rate)
+</code></pre></div>
+<p>Simple.</p>
+<p>Transparent.</p>
+<p>Auditable.</p>
+<p>That's preferable to unnecessarily complicated nested formulas.</p>
+<hr />
+<h3 id="3-statement-linking">3. Statement Linking</h3>
+<p>Cash flows correctly into the Balance Sheet.</p>
+<p>Net Income flows into retained earnings.</p>
+<p>The Income Statement drives the Cash Flow Statement.</p>
+<p>This is the minimum standard expected in investment banking.</p>
+<hr />
+<h3 id="4-readability">4. Readability</h3>
+<p>The workbook is easy to navigate.</p>
+<ul>
+<li>No excessive colour coding</li>
+<li>No hidden calculations</li>
+<li>Minimal merged cells</li>
+<li>Reasonable spacing</li>
+</ul>
+<p>Good formatting matters more than beginners realise.</p>
+<hr />
+<h2 id="major-weaknesses">Major Weaknesses</h2>
+<p>This is where an Excel workbook becomes a financial model.</p>
+<hr />
+<h3 id="problem-1-revenue-is-growing-mechanically">Problem 1 — Revenue Is Growing Mechanically</h3>
+<p>The forecast assumes:</p>
+<div class="highlight"><pre><span></span><code>Next Year Revenue
+=
+Previous Year Revenue × (1 + Growth Rate)
+</code></pre></div>
+<p>That works mathematically.</p>
+<p>It tells us nothing about Breville.</p>
+<p>An Associate would immediately ask:</p>
+<blockquote>
+<p><strong>Why is revenue growing?</strong></p>
+</blockquote>
+<ul>
+<li>New products?</li>
+<li>Pricing?</li>
+<li>US expansion?</li>
+<li>European growth?</li>
+<li>Premium product mix?</li>
+<li>FX tailwinds?</li>
+</ul>
+<p>The AI never answers these questions.</p>
+<p>Revenue simply grows because a percentage says so.</p>
+<p>That's acceptable in first-pass modelling...</p>
+<p>but it's not accurate forecasting.</p>
+<hr />
+<h3 id="better-practice">Better Practice</h3>
+<p>Revenue should ideally be driven by:</p>
+<ul>
+<li>Geographic growth</li>
+<li>Product launches</li>
+<li>Volume assumptions</li>
+<li>Pricing assumptions</li>
+<li>Market share</li>
+<li>Foreign exchange</li>
+<li>Historical management guidance</li>
+</ul>
+<p>This makes forecasts defendable.</p>
+<hr />
+<h3 id="problem-2-margins-are-static">Problem 2 — Margins Are Static</h3>
+<p>Operating margins barely change.</p>
+<p>Real businesses don't behave like this.</p>
+<p>Breville experiences:</p>
+<ul>
+<li>Freight volatility</li>
+<li>Commodity inflation</li>
+<li>FX movements</li>
+<li>Supply chain disruptions</li>
+<li>Operating leverage</li>
+</ul>
+<p>A banking model should explain why margins change.</p>
+<p>Instead, AI assumes stability - flatline, which is acceptable in a first pass.</p>
+<p>However, this removes much of the commercial insight.</p>
+<hr />
+<h3 id="problem-3-working-capital-forecast-is-oversimplified">Problem 3 — Working Capital Forecast Is Oversimplified</h3>
+<p>Breville is an inventory-heavy consumer products company.</p>
+<p>Working capital ought to be one of its biggest valuation drivers.</p>
+<p>The AI forecasts:</p>
+<ul>
+<li>Inventory</li>
+<li>Receivables</li>
+<li>Payables</li>
+</ul>
+<p>Professional judgement would need to be excercised for the following forecasts:</p>
+<ul>
+<li>Days Inventory Outstanding (DIO)</li>
+<li>Days Sales Outstanding (DSO)</li>
+<li>Days Payables Outstanding (DPO)</li>
+</ul>
+<p>These appropriate choice of these metrics will reflect the true operational reality.</p>
+<hr />
+<h3 id="problem-4-capital-expenditure-is-not-operationally-driven">Problem 4 — Capital Expenditure Is Not Operationally Driven</h3>
+<p>Capex appears to grow smoothly.</p>
+<p>A banker immediately asks:</p>
+<ul>
+<li>Is Breville expanding manufacturing?</li>
+<li>Opening distribution centres?</li>
+<li>Investing in automation?</li>
+<li>Upgrading ERP systems?</li>
+<li>Increasing warehouse capacity?</li>
+</ul>
+<p>Capex should reflect business strategy.</p>
+<p>Not simply historical averages.</p>
+<hr />
+<h3 id="problem-5-depreciation-schedule-missing">Problem 5 — Depreciation Schedule Missing</h3>
+<p>Depreciation appears disconnected from asset additions.</p>
+<p>Professional models generally build a PP&amp;E schedule.</p>
+<div class="highlight"><pre><span></span><code>Opening PP&amp;E
++ Capital Expenditure
+− Asset Disposals
+= Closing PP&amp;E
+</code></pre></div>
+<p>Depreciation is then derived from the asset base.</p>
+<hr />
+<h3 id="problem-6-debt-schedule-missing">Problem 6 — Debt Schedule Missing</h3>
+<p>This is probably the biggest omission.</p>
+<p>Institutional models always include a debt roll-forward.</p>
+<div class="highlight"><pre><span></span><code>Opening Debt
++ New Borrowings
+− Repayments
+= Closing Debt
+</code></pre></div>
+<p>Interest expense should be calculated from average debt balances.</p>
+<p>Without this schedule, interest becomes an assumption rather than an output.</p>
+<hr />
+<h3 id="problem-7-share-count-schedule-missing">Problem 7 — Share Count Schedule Missing</h3>
+<p>A valuation model eventually needs:</p>
+<ul>
+<li>Shares Outstanding</li>
+<li>Diluted Shares</li>
+<li>Employee Options</li>
+<li>Share Buybacks</li>
+<li>EPS</li>
+<li>Diluted EPS</li>
+</ul>
+<p>None of these schedules currently exist.</p>
+<hr />
+<h3 id="problem-8-missing-supporting-schedules">Problem 8 — Missing Supporting Schedules</h3>
+<p>Several supporting schedules are absent.</p>
+<ul>
+<li>Working Capital</li>
+<li>PP&amp;E</li>
+<li>Debt</li>
+<li>Equity</li>
+<li>Intangibles</li>
+<li>Leases</li>
+<li>Share Capital</li>
+</ul>
+<p>These schedules improve transparency and reduce modelling errors.</p>
+<hr />
+<h3 id="problem-9-no-scenario-analysis">Problem 9 — No Scenario Analysis</h3>
+<p>Investment banking models almost always include:</p>
+<ul>
+<li>Base Case</li>
+<li>Bull Case</li>
+<li>Bear Case</li>
+<li>Sensitivity Analysis</li>
+<li>Management Case</li>
+</ul>
+<p>The current model contains only a single forecast.</p>
+<hr />
+<h2 id="ai-hallucinations-to-watch-for">AI Hallucinations to Watch For</h2>
+<p>One lesson every analyst should learn:</p>
+<p><strong>Never trust AI simply because the formulas calculate.</strong></p>
+<p>Always ask:</p>
+<blockquote>
+<p><strong>"Does this make economic sense?"</strong></p>
+</blockquote>
+<p>Common AI mistakes include:</p>
+<ul>
+<li>Hardcoded assumptions inside formulas</li>
+<li>Growth continuing indefinitely</li>
+<li>Cash increasing despite negative free cash flow</li>
+<li>Debt disappearing unexpectedly</li>
+<li>Unrealistically stable margins</li>
+<li>Circular accounting logic</li>
+<li>Assets growing without investment</li>
+</ul>
+<p>Fortunately, this model avoids many catastrophic errors.</p>
+<p>Every assumption still requires professional validation.</p>
+<hr />
+<h2 id="if-i-were-reviewing-an-analysts-work">If I Were Reviewing an Analyst's Work</h2>
+<p>These would be my review comments.</p>
+<h3 id="comment-1">Comment 1</h3>
+<p>Build a proper revenue bridge.</p>
+<p>Forecast the business.</p>
+<p>What is the concensus growth estimate? Footnote your sources.</p>
+<hr />
+<h3 id="comment-2">Comment 2</h3>
+<p>Separate assumptions from calculations.</p>
+<p>Every key driver should live in one assumptions section.</p>
+<hr />
+<h3 id="comment-3">Comment 3</h3>
+<p>Build proper supporting schedules.</p>
+<ul>
+<li>Debt</li>
+<li>PP&amp;E</li>
+<li>Working Capital</li>
+</ul>
+<hr />
+<h3 id="comment-4">Comment 4</h3>
+<p>Replace percentage assumptions with operational drivers wherever possible.</p>
+<p>Justify flatlines with a comment.</p>
+<hr />
+<h3 id="comment-5">Comment 5</h3>
+<p>Double-check your Balance Sheet Check.</p>
+<p>Please reconcile:</p>
+<div class="highlight"><pre><span></span><code>Assets = Liabilities + Equity
+</code></pre></div>
+<p>The difference should always equal zero.</p>
+<hr />
+<h3 id="comment-6">Comment 6</h3>
+<p>Add scenario controls.</p>
+<blockquote>
+<p>"What happens if revenue slows?"</p>
+</blockquote>
+<p>The model should answer that question with one click.</p>
+<hr />
+<h2 id="what-ai-gets-right">What AI Gets Right</h2>
+<p>This model demonstrates something important.</p>
+<p>Without guidance on data sources and formats, AI is already capable of:</p>
+<ul>
+<li>Extracting (scraping to be more precise) financial data</li>
+<li>Linking statements</li>
+<li>Building financial models</li>
+<li>Forecasting mechanically</li>
+<li>Producing clean Excel structures</li>
+</ul>
+<p>That alone can save analysts hours.</p>
+<hr />
+<h2 id="what-ai-cannot-yet-replace">What AI Cannot Yet Replace</h2>
+<p>AI still cannot replace:</p>
+<ul>
+<li>Commercial judgement</li>
+<li>Industry understanding</li>
+<li>Management interpretation</li>
+<li>Forecast rationale</li>
+<li>Business intuition</li>
+<li>Valuation judgement</li>
+</ul>
+<p>Those remain fundamentally human skills.</p>
+<hr />
+<h2 id="final-verdict">Final Verdict</h2>
+<p>As an Investment Banker, I would accept this <a href="../Breville_Group_FM_v1.xlsx">workbook</a> as a <strong>starting point</strong>, not a finished deliverable.</p>
+<p>It eliminates approximately <strong>50–60% of the repetitive Excel work</strong> traditionally performed by junior analysts.</p>
+<p>The remaining <strong>40–50%</strong>—transforming the spreadsheet into an institutional-quality financial model—still requires professional judgement, commercial thinking and rigorous modelling discipline.</p>
+<p>The biggest takeaway is not that AI replaces financial modelling.</p>
+<p>Rather...</p>
+<p>AI changes where analysts spend their time.</p>
+<p>Less time building rows.</p>
+<p>Less time writing formulas.</p>
+<p>More time understanding businesses.</p>
+<p>More time validating assumptions.</p>
+<p>More time generating investment insight.</p>
+<hr />
+<h2 id="ai-model-assessment-summary">AI Model Assessment Summary</h2>
+<blockquote>
+<p>What you're looking at is a first draft generated with AI. The objective wasn't to build a perfect model, but to see how far AI can take us before human judgement becomes essential.</p>
+<p>The AI has correctly structured the three financial statements, linked them together, and projected the business into the future. That's already a meaningful productivity gain. Tasks that might take a junior analyst several hours can now be completed in minutes.</p>
+<p>But here's the key lesson: a spreadsheet that calculates is not necessarily a financial model that explains a business.</p>
+<p>Notice how revenue is forecast using a simple growth assumption. That's mathematically correct, but an investment banker wants to understand <em>why</em> revenue is growing. Is it pricing? Product launches? Geographic expansion? FX? Consumer demand? Those are business questions—not spreadsheet questions.</p>
+<p>The same applies to margins, working capital and capital expenditure. AI has extrapolated historical trends, but it doesn't yet understand management strategy or operational realities. That's where human analysis creates value.</p>
+<p>Think of AI as your first-year analyst. It can assemble the framework quickly, perform repetitive tasks consistently and eliminate much of the manual work. But every assumption still needs to be challenged.</p>
+<p>Our role as finance professionals is no longer just building models. It's reviewing them, improving them, stress-testing them and ensuring every number reflects the economics of the business rather than simply extending historical trends.</p>
+<p>That's exactly the philosophy behind the AI Finance Lab. We use AI to automate the mechanics so we can spend more time on judgement, valuation and investment insight.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,3999 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Building the next generation of AI-enabled finance professionals">
+      
+      
+      
+      
+        <link rel="prev" href="../learn%20LBO%20mechanics/">
+      
+      
+        <link rel="next" href="../../AI%20Fundamentals/learn%20AI%20Fundamentals/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/4MATR Favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Merger Mechanics - AI Finance Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#merger-mechanics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AI Finance Lab" class="md-header__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Finance Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Merger Mechanics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AI Finance Lab" class="md-nav__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    AI Finance Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start Here
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Start Here
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About AI Finance Lab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Self-learning Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learn
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learn
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounting Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Accounting Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting%20Fundamentals/learn%20Accounting%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_2" id="__nav_3_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Finance%20Fundamentals/learn%20FSA%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_3" id="__nav_3_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelling Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelling Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20Modelling%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20FM%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20DCF%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn%20LBO%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Mechanics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-how-ma-transactions-create-or-destroy-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding How M&amp;A Transactions Create (or Destroy) Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-merger-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is a Merger Model?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Is a Merger Model?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acquirer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acquirer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Target
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-build-a-merger-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Build a Merger Model?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Build a Merger Model?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revenue-synergies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revenue Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cost-synergies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategic-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strategic Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-merger-modelling-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Merger Modelling Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-transaction-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Transaction Assumptions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Transaction Assumptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purchase-price" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchase Price
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financing-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financing Method
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Financing Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stock
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combination
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-standalone-company-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Standalone Company Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Standalone Company Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#income-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Income Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#balance-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Balance Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-sources-and-uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Sources and Uses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Sources and Uses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-purchase-accounting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Purchase Accounting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4: Purchase Accounting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elimination-of-target-equity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elimination of Target Equity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creation-of-goodwill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creation of Goodwill
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asset-write-ups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Write-Ups
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-combining-financial-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Combining Financial Statements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-synergy-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Synergy Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 6: Synergy Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revenue-synergies_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revenue Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cost-synergies_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-accretion-dilution-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Accretion / Dilution Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 7: Accretion / Dilution Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accretive-transaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accretive Transaction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dilutive-transaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dilutive Transaction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-merger-model-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Merger Model Outputs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Merger Model Outputs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transaction-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transaction Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-impact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Impact
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ownership-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ownership Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accretion-dilution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accretion / Dilution
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-merger-modelling-mistakes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Merger Modelling Mistakes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Merger Modelling Mistakes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unrealistic-synergies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unrealistic Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ignoring-financing-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ignoring Financing Costs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incorrect-purchase-accounting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incorrect Purchase Accounting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlooking-integration-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overlooking Integration Risks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-assisted-merger-modelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI-Assisted Merger Modelling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI-Assisted Merger Modelling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#try-it-yourself-breville-case-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Try It Yourself — Breville Case Study
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Next Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#merger-modelling-coming-soon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Merger Modelling (Coming Soon)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20AI%20Fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20Prompt%20Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompt Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20AI%20Model%20Auditing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Auditing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI%20Fundamentals/learn%20AI%20Assisted%20Modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI-Assisted Financial Modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Case Studies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Case Studies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breville Group
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Breville Group
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/about%20BRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About the Case Study
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Annual%20Report/Breville-Annual-Report-2025.pdf" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annual Report (PDF)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Data/BRG.AX%20Financials.xlsx" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YahooFinance Financials Export (XLSX)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_4" id="__nav_4_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preliminary AI Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Preliminary AI Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20FM%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20DCF%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20LBO%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Prompt%20Outputs/prompt%20merger%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_5" id="__nav_4_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Model Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Models/AI%20Output/FM/AI%20FM%20Assessment%20v1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Study/Breville/Models/AI%20Output/FM/AI%20FM%20Assessment%20v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Engineering Handbook
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Financial Engineering Handbook
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4MATR%20Resources/AI%20Finance%20Handbook/Chapter%2001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4MATR%20Resources/AI%20Finance%20Handbook/Chapter%2002/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4MATR%20Community/ai-finance-community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Finance Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Newsletter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Newsletter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/newsletter_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 4MATR Brief
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-00-welcome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 0  - Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-01-connectingdots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 1  - Connecting The Dots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-02-chasingreturns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 2  - Chasing Returns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/issue-03-ebitdafantasy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 3  - The EBITDA Fantasy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-how-ma-transactions-create-or-destroy-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding How M&amp;A Transactions Create (or Destroy) Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-merger-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is a Merger Model?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Is a Merger Model?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acquirer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acquirer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Target
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-build-a-merger-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Build a Merger Model?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Build a Merger Model?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revenue-synergies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revenue Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cost-synergies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategic-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strategic Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-merger-modelling-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Merger Modelling Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-transaction-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Transaction Assumptions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Transaction Assumptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#purchase-price" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchase Price
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financing-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financing Method
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Financing Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stock
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combination
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-standalone-company-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Standalone Company Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Standalone Company Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#income-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Income Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#balance-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Balance Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-sources-and-uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Sources and Uses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Sources and Uses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-purchase-accounting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Purchase Accounting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4: Purchase Accounting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elimination-of-target-equity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elimination of Target Equity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creation-of-goodwill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creation of Goodwill
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asset-write-ups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Write-Ups
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-combining-financial-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Combining Financial Statements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-synergy-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Synergy Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 6: Synergy Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revenue-synergies_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revenue Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cost-synergies_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-accretion-dilution-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Accretion / Dilution Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 7: Accretion / Dilution Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accretive-transaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accretive Transaction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dilutive-transaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dilutive Transaction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-merger-model-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Merger Model Outputs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Merger Model Outputs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transaction-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transaction Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-impact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Impact
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ownership-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ownership Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accretion-dilution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accretion / Dilution
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-merger-modelling-mistakes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Merger Modelling Mistakes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Merger Modelling Mistakes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unrealistic-synergies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unrealistic Synergies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ignoring-financing-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ignoring Financing Costs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incorrect-purchase-accounting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incorrect Purchase Accounting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlooking-integration-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overlooking Integration Risks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-assisted-merger-modelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI-Assisted Merger Modelling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI-Assisted Merger Modelling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#try-it-yourself-breville-case-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Try It Yourself — Breville Case Study
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Next Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#merger-modelling-coming-soon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Merger Modelling (Coming Soon)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="merger-mechanics">Merger Mechanics</h1>
+<h2 id="understanding-how-ma-transactions-create-or-destroy-value">Understanding How M&amp;A Transactions Create (or Destroy) Value</h2>
+<p>A merger model evaluates the financial impact of combining two companies.</p>
+<p>The central question of a merger model is:</p>
+<blockquote>
+<p>Does this transaction create value for shareholders?</p>
+</blockquote>
+<p>Merger models are commonly used by:</p>
+<ul>
+<li>Investment banks</li>
+<li>Corporate development teams</li>
+<li>Private equity firms</li>
+<li>Strategic acquirers</li>
+</ul>
+<p>They help decision-makers understand how an acquisition affects:</p>
+<ul>
+<li>Revenue</li>
+<li>Earnings</li>
+<li>Capital structure</li>
+<li>Ownership</li>
+<li>Shareholder value</li>
+</ul>
+<hr />
+<h2 id="what-is-a-merger-model">What Is a Merger Model?</h2>
+<p>A merger model combines the financial information of two companies:</p>
+<h3 id="acquirer">Acquirer</h3>
+<p>The company purchasing another business.</p>
+<h3 id="target">Target</h3>
+<p>The company being acquired.</p>
+<p>The model analyses the combined company after the transaction.</p>
+<p>A typical merger model includes:</p>
+<div class="highlight"><pre><span></span><code>Acquirer Standalone
+        +
+Target Standalone
+        +
+Transaction Adjustments
+        ↓
+Combined Company
+        ↓
+Accretion / Dilution Analysis
+</code></pre></div>
+<hr />
+<h2 id="why-build-a-merger-model">Why Build a Merger Model?</h2>
+<p>Companies pursue acquisitions for many reasons:</p>
+<h3 id="revenue-synergies">Revenue Synergies</h3>
+<p>The combined company generates additional sales.</p>
+<p>Examples:</p>
+<ul>
+<li>Cross-selling products</li>
+<li>Entering new markets</li>
+<li>Expanding customer base</li>
+</ul>
+<hr />
+<h3 id="cost-synergies">Cost Synergies</h3>
+<p>The combined company reduces expenses.</p>
+<p>Examples:</p>
+<ul>
+<li>Removing duplicate functions</li>
+<li>Improving purchasing power</li>
+<li>Combining operations</li>
+</ul>
+<hr />
+<h3 id="strategic-benefits">Strategic Benefits</h3>
+<p>Acquisitions may provide:</p>
+<ul>
+<li>New technology</li>
+<li>Market access</li>
+<li>Talent</li>
+<li>Competitive advantages</li>
+</ul>
+<hr />
+<h2 id="the-merger-modelling-workflow">The Merger Modelling Workflow</h2>
+<p>A professional merger model generally follows these steps:</p>
+<div class="highlight"><pre><span></span><code>Transaction Assumptions
+        ↓
+Standalone Company Analysis
+        ↓
+Sources &amp; Uses
+        ↓
+Purchase Accounting
+        ↓
+Combined Financial Statements
+        ↓
+Accretion / Dilution Analysis
+</code></pre></div>
+<hr />
+<h2 id="step-1-transaction-assumptions">Step 1: Transaction Assumptions</h2>
+<p>The model begins with understanding the deal structure.</p>
+<p>Key assumptions include:</p>
+<h3 id="purchase-price">Purchase Price</h3>
+<p>The value paid for the target company.</p>
+<p>Common measures:</p>
+<ul>
+<li>Enterprise Value</li>
+<li>Equity Value</li>
+<li>Premium paid to target shareholders</li>
+</ul>
+<hr />
+<h3 id="financing-method">Financing Method</h3>
+<p>Transactions may be funded through:</p>
+<h4 id="cash">Cash</h4>
+<p>The acquirer pays using available cash.</p>
+<hr />
+<h4 id="debt">Debt</h4>
+<p>The acquirer borrows funds.</p>
+<hr />
+<h4 id="stock">Stock</h4>
+<p>The acquirer issues shares to target shareholders.</p>
+<hr />
+<h4 id="combination">Combination</h4>
+<p>Many transactions use multiple financing methods.</p>
+<hr />
+<h2 id="step-2-standalone-company-analysis">Step 2: Standalone Company Analysis</h2>
+<p>Before combining companies, analyse each business separately.</p>
+<p>For both companies, review:</p>
+<h3 id="income-statement">Income Statement</h3>
+<p>Including:</p>
+<ul>
+<li>Revenue</li>
+<li>EBITDA</li>
+<li>Operating income</li>
+<li>Net income</li>
+</ul>
+<hr />
+<h3 id="balance-sheet">Balance Sheet</h3>
+<p>Including:</p>
+<ul>
+<li>Assets</li>
+<li>Liabilities</li>
+<li>Debt</li>
+<li>Equity</li>
+</ul>
+<hr />
+<h3 id="key-metrics">Key Metrics</h3>
+<p>Including:</p>
+<ul>
+<li>Margins</li>
+<li>Growth rates</li>
+<li>Earnings per share</li>
+</ul>
+<p>Understanding standalone performance is essential before analysing transaction impact.</p>
+<hr />
+<h2 id="step-3-sources-and-uses">Step 3: Sources and Uses</h2>
+<p>Similar to LBO modelling, merger models require a sources and uses analysis.</p>
+<h3 id="uses">Uses</h3>
+<p>Where money goes:</p>
+<ul>
+<li>Purchase equity value</li>
+<li>Refinancing target debt</li>
+<li>Transaction fees</li>
+<li>Advisory costs</li>
+</ul>
+<hr />
+<h3 id="sources">Sources</h3>
+<p>Where funding comes from:</p>
+<ul>
+<li>Cash</li>
+<li>Debt</li>
+<li>Stock issuance</li>
+</ul>
+<p>The model must balance:</p>
+<div class="highlight"><pre><span></span><code>Total Sources = Total Uses
+</code></pre></div>
+<hr />
+<h2 id="step-4-purchase-accounting">Step 4: Purchase Accounting</h2>
+<p>When one company acquires another, accounting adjustments are required.</p>
+<p>The model may include:</p>
+<h3 id="elimination-of-target-equity">Elimination of Target Equity</h3>
+<p>The target's historical equity is removed.</p>
+<hr />
+<h3 id="creation-of-goodwill">Creation of Goodwill</h3>
+<p>Goodwill represents the premium paid above identifiable net assets.</p>
+<p>Conceptually:</p>
+<div class="highlight"><pre><span></span><code>Purchase Price
+-
+Fair Value of Net Assets
+=
+Goodwill
+</code></pre></div>
+<hr />
+<h3 id="asset-write-ups">Asset Write-Ups</h3>
+<p>Certain assets may be revalued during acquisition accounting.</p>
+<p>Examples:</p>
+<ul>
+<li>Property</li>
+<li>Intangible assets</li>
+<li>Technology</li>
+</ul>
+<hr />
+<h2 id="step-5-combining-financial-statements">Step 5: Combining Financial Statements</h2>
+<p>The combined company is created by adding:</p>
+<div class="highlight"><pre><span></span><code>Acquirer Financials
++
+Target Financials
++
+Transaction Adjustments
+=
+Combined Company
+</code></pre></div>
+<p>Adjustments may include:</p>
+<ul>
+<li>New debt</li>
+<li>Interest expense</li>
+<li>Synergies</li>
+<li>Depreciation impacts</li>
+<li>Goodwill</li>
+</ul>
+<hr />
+<h2 id="step-6-synergy-analysis">Step 6: Synergy Analysis</h2>
+<p>Synergies are one of the most important deal assumptions.</p>
+<h3 id="revenue-synergies_1">Revenue Synergies</h3>
+<p>Examples:</p>
+<ul>
+<li>Increased sales</li>
+<li>Expanded customer relationships</li>
+</ul>
+<hr />
+<h3 id="cost-synergies_1">Cost Synergies</h3>
+<p>Examples:</p>
+<ul>
+<li>Lower operating expenses</li>
+<li>Reduced overhead</li>
+</ul>
+<hr />
+<p>A good model separates:</p>
+<ul>
+<li>Realistic synergies</li>
+<li>Aggressive assumptions</li>
+<li>Downside scenarios</li>
+</ul>
+<hr />
+<h2 id="step-7-accretion-dilution-analysis">Step 7: Accretion / Dilution Analysis</h2>
+<p>The key output of a merger model is whether the transaction increases or decreases earnings per share.</p>
+<h3 id="accretive-transaction">Accretive Transaction</h3>
+<p>The acquisition increases earnings per share.</p>
+<p>Example:</p>
+<p>Standalone EPS:</p>
+<p>$2.00</p>
+<p>Combined EPS:</p>
+<p>$2.20</p>
+<p>The transaction is accretive.</p>
+<hr />
+<h3 id="dilutive-transaction">Dilutive Transaction</h3>
+<p>The acquisition decreases earnings per share.</p>
+<p>Example:</p>
+<p>Standalone EPS:</p>
+<p>$2.00</p>
+<p>Combined EPS:</p>
+<p>$1.80</p>
+<p>The transaction is dilutive.</p>
+<hr />
+<h2 id="key-merger-model-outputs">Key Merger Model Outputs</h2>
+<p>A completed merger model typically shows:</p>
+<h3 id="transaction-summary">Transaction Summary</h3>
+<ul>
+<li>Purchase price</li>
+<li>Premium paid</li>
+<li>Financing structure</li>
+</ul>
+<hr />
+<h3 id="financial-impact">Financial Impact</h3>
+<ul>
+<li>Revenue impact</li>
+<li>EBITDA impact</li>
+<li>Net income impact</li>
+</ul>
+<hr />
+<h3 id="ownership-analysis">Ownership Analysis</h3>
+<p>Shows ownership percentages after the transaction.</p>
+<hr />
+<h3 id="accretion-dilution">Accretion / Dilution</h3>
+<p>Shows impact on shareholder earnings.</p>
+<hr />
+<h2 id="common-merger-modelling-mistakes">Common Merger Modelling Mistakes</h2>
+<h3 id="unrealistic-synergies">Unrealistic Synergies</h3>
+<p>Assuming benefits that are difficult to achieve.</p>
+<hr />
+<h3 id="ignoring-financing-costs">Ignoring Financing Costs</h3>
+<p>Debt financing creates additional interest expense.</p>
+<hr />
+<h3 id="incorrect-purchase-accounting">Incorrect Purchase Accounting</h3>
+<p>Failing to correctly account for goodwill and adjustments.</p>
+<hr />
+<h3 id="overlooking-integration-risks">Overlooking Integration Risks</h3>
+<p>A model may show attractive numbers, but execution determines success.</p>
+<hr />
+<h2 id="ai-assisted-merger-modelling">AI-Assisted Merger Modelling</h2>
+<p>AI can support merger analysis by helping with:</p>
+<h3 id="research">Research</h3>
+<ul>
+<li>Summarising company information</li>
+<li>Analysing strategic rationale</li>
+<li>Reviewing industry trends</li>
+</ul>
+<hr />
+<h3 id="financial-analysis">Financial Analysis</h3>
+<ul>
+<li>Comparing companies</li>
+<li>Identifying synergies</li>
+<li>Creating transaction summaries</li>
+</ul>
+<hr />
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li>Drafting deal summaries</li>
+<li>Explaining assumptions</li>
+<li>Creating investment committee materials</li>
+</ul>
+<hr />
+<p>However, AI cannot determine:</p>
+<ul>
+<li>Whether the acquisition strategy makes sense</li>
+<li>Whether management can execute integration</li>
+<li>Whether the purchase price is justified</li>
+</ul>
+<p>Those decisions require judgement.</p>
+<hr />
+<h2 id="learning-outcomes">Learning Outcomes</h2>
+<p>After completing this module, you should understand:</p>
+<ul>
+<li>Why companies pursue mergers and acquisitions</li>
+<li>The roles of acquirers and targets</li>
+<li>How transactions are structured</li>
+<li>How purchase price and financing affect outcomes</li>
+<li>How synergies influence deal value</li>
+<li>How accretion/dilution analysis measures transaction impact</li>
+</ul>
+<hr />
+<h2 id="try-it-yourself-breville-case-study">Try It Yourself — Breville Case Study</h2>
+<p>Open the <strong>Breville FY2025 Annual Report</strong> included in this repository under the <strong>Case Studies &gt; Breville Group</strong> section.</p>
+<p>Imagine De'Longhi, another global consumer products company, is considering acquiring Breville.</p>
+<p>Using the Breville annual report, identify:</p>
+<ul>
+<li>Strategic reasons for an acquisition.</li>
+<li>Potential revenue synergies.</li>
+<li>Potential cost synergies.</li>
+<li>Integration challenges.</li>
+<li>Risks that could prevent value creation.</li>
+</ul>
+<p>Prepare a memo discussing whether such an acquisition would make strategic sense.</p>
+<blockquote>
+<p><strong>Goal:</strong> Learn to evaluate acquisitions from both a strategic and financial perspective.</p>
+</blockquote>
+<hr />
+<h2 id="next-steps">Next Steps</h2>
+<p>After understanding merger mechanics, continue to:</p>
+<h3 id="merger-modelling-coming-soon">Merger Modelling (Coming Soon)</h3>
+<p>You will learn how to build a complete merger model including:</p>
+<ul>
+<li>Transaction assumptions</li>
+<li>Sources and uses</li>
+<li>Purchase accounting adjustments</li>
+<li>Financing impacts</li>
+<li>Combined financial statements</li>
+<li>Accretion / dilution analysis</li>
+<li>Sensitivity analysis</li>
+</ul>
+<p>A strong merger modeller understands both the spreadsheet mechanics and the strategic logic behind the transaction.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

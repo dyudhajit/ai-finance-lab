@@ -1,0 +1,4898 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Building the next generation of AI-enabled finance professionals">
+      
+      
+      
+      
+        <link rel="prev" href="../../../Case%20Study/Breville/Models/AI%20Output/FM/AI%20FM%20Assessment%20v2/">
+      
+      
+        <link rel="next" href="../Chapter%2002/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/4MATR Favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Chapter 1 - AI Finance Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="AI Finance Lab" class="md-header__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Finance Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="AI Finance Lab" class="md-nav__button md-logo" aria-label="AI Finance Lab" data-md-component="logo">
+      
+  <img src="../../../assets/4MATR Logo.png" alt="logo">
+
+    </a>
+    AI Finance Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start Here
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Start Here
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About AI Finance Lab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learning-roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Self-learning Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contribute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learn
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learn
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounting Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Accounting Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Accounting%20Fundamentals/learn%20Accounting%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_2" id="__nav_3_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Finance Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Finance Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Finance%20Fundamentals/learn%20FSA%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_3" id="__nav_3_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelling Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelling Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelling%20Fundamentals/learn%20Modelling%20fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelling%20Fundamentals/learn%20FM%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelling%20Fundamentals/learn%20DCF%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelling%20Fundamentals/learn%20LBO%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelling%20Fundamentals/learn%20Merger%20mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Mechanics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../AI%20Fundamentals/learn%20AI%20Fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../AI%20Fundamentals/learn%20Prompt%20Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompt Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../AI%20Fundamentals/learn%20AI%20Model%20Auditing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Auditing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../AI%20Fundamentals/learn%20AI%20Assisted%20Modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI-Assisted Financial Modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Case Studies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Case Studies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breville Group
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Breville Group
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/about%20BRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About the Case Study
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Annual%20Report/Breville-Annual-Report-2025.pdf" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annual Report (PDF)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Data/BRG.AX%20Financials.xlsx" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YahooFinance Financials Export (XLSX)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_4" id="__nav_4_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preliminary AI Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Preliminary AI Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Prompt%20Outputs/prompt%20FM%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FM Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Prompt%20Outputs/prompt%20DCF%20opinion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DCF Opinion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Prompt%20Outputs/prompt%20LBO%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LBO Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Prompt%20Outputs/prompt%20merger%20strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merger Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_5" id="__nav_4_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Model Assessment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Model Assessment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Models/AI%20Output/FM/AI%20FM%20Assessment%20v1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Case%20Study/Breville/Models/AI%20Output/FM/AI%20FM%20Assessment%20v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Model v2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Financial Engineering Handbook
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Financial Engineering Handbook
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-every-finance-professional-should-learn-to-build-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Every Finance Professional Should Learn to Build Applications
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Every Finance Professional Should Learn to Build Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-beginning-of-a-new-finance-era" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Beginning of a New Finance Era
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering Principles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principle 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finance-professionals-do-not-need-to-become-software-engineers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Finance Professionals Do Not Need to Become Software Engineers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principle 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-future-advantage-is-system-design-not-spreadsheet-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Future Advantage Is System Design, Not Spreadsheet Speed
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Future Advantage Is System Design, Not Spreadsheet Speed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analyst-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyst A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyst-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyst B
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principle 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#technology-should-amplify-judgment-not-replace-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technology Should Amplify Judgment, Not Replace It
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-evolution-of-financial-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Evolution of Financial Work
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Evolution of Financial Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-manual-finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1: Manual Finance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-spreadsheet-finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2: Spreadsheet Finance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-data-driven-finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3: Data-Driven Finance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-ai-assisted-financial-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4: AI-Assisted Financial Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-handbook-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Handbook Exists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-4matr-philosophy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The 4MATR Philosophy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-applications-creates-better-finance-professionals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building Applications Creates Better Finance Professionals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Building Applications Creates Better Finance Professionals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#market-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Market Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capital-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capital Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Statements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Valuation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-ai-finance-dashboard-journey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI Finance Dashboard Journey
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-problem-we-are-solving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Problem We Are Solving
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Problem We Are Solving">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-it-is-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. It is Manual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-it-is-difficult-to-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. It Is Difficult to Scale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-knowledge-is-trapped-in-individual-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Knowledge Is Trapped in Individual Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-ai-finance-dashboard-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI Finance Dashboard Vision
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-we-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Are We Building?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Are We Building?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-comparables-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Comparables Engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-statement-analysis-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Statement Analysis Engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valuation-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Valuation Engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#company-intelligence-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Company Intelligence Pages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-assistance-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Assistance Layer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-journey-from-analyst-to-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Journey From Analyst to Builder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-new-finance-professional-skill-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The New Finance Professional Skill Stack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-ai-finance-engineer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI Finance Engineer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The AI Finance Engineer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-an-ai-finance-engineer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is an AI Finance Engineer?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-different-finance-careers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Different Finance Careers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why This Matters for Different Finance Careers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#investment-banking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Investment Banking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equity-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#private-equity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private Equity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corporate-finance-and-fpa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corporate Finance and FP&amp;A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mba-students-and-early-career-professionals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MBA Students and Early Career Professionals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from-tool-user-to-tool-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From Tool User to Tool Builder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-core-beliefs-behind-this-handbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Core Beliefs Behind This Handbook
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Core Beliefs Behind This Handbook">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#belief-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belief 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Belief 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#everyone-should-learn-at-least-some-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Everyone Should Learn (At Least Some) Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belief-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belief 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Belief 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-has-altered-the-learning-curve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI has Altered the Learning Curve
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belief-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belief 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Belief 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#building-is-the-best-way-to-learn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building Is the Best Way to Learn
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercises
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercise-1-analyze-your-current-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 1: Analyze Your Current Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-2-identify-a-finance-system-you-could-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 2: Identify a Finance System You Could Build
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-3-change-your-mindset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 3: Change Your Mindset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Chapter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Next Chapter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-ai-first-engineering-mindset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI-First Engineering Mindset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter%2002/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4MATR Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4MATR Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4MATR%20Community/ai-finance-community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Finance Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Newsletter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Newsletter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Newsletter/newsletter_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 4MATR Brief
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Newsletter/issue-00-welcome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 0  - Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Newsletter/issue-01-connectingdots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 1  - Connecting The Dots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Newsletter/issue-02-chasingreturns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 2  - Chasing Returns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Newsletter/issue-03-ebitdafantasy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Issue 3  - The EBITDA Fantasy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-every-finance-professional-should-learn-to-build-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Every Finance Professional Should Learn to Build Applications
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Every Finance Professional Should Learn to Build Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-beginning-of-a-new-finance-era" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Beginning of a New Finance Era
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering Principles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principle 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finance-professionals-do-not-need-to-become-software-engineers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Finance Professionals Do Not Need to Become Software Engineers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principle 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-future-advantage-is-system-design-not-spreadsheet-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Future Advantage Is System Design, Not Spreadsheet Speed
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Future Advantage Is System Design, Not Spreadsheet Speed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analyst-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyst A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyst-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyst B
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principle-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principle 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#technology-should-amplify-judgment-not-replace-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technology Should Amplify Judgment, Not Replace It
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-evolution-of-financial-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Evolution of Financial Work
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Evolution of Financial Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-manual-finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1: Manual Finance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-spreadsheet-finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2: Spreadsheet Finance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-data-driven-finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3: Data-Driven Finance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-ai-assisted-financial-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4: AI-Assisted Financial Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-handbook-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Handbook Exists
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-4matr-philosophy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The 4MATR Philosophy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-applications-creates-better-finance-professionals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building Applications Creates Better Finance Professionals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Building Applications Creates Better Finance Professionals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#market-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Market Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capital-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capital Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Statements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Valuation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-ai-finance-dashboard-journey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI Finance Dashboard Journey
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-problem-we-are-solving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Problem We Are Solving
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Problem We Are Solving">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-it-is-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. It is Manual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-it-is-difficult-to-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. It Is Difficult to Scale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-knowledge-is-trapped-in-individual-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Knowledge Is Trapped in Individual Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-ai-finance-dashboard-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI Finance Dashboard Vision
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-we-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Are We Building?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Are We Building?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-comparables-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Comparables Engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-statement-analysis-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Statement Analysis Engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valuation-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Valuation Engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#company-intelligence-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Company Intelligence Pages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-assistance-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Assistance Layer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-journey-from-analyst-to-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Journey From Analyst to Builder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-new-finance-professional-skill-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The New Finance Professional Skill Stack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-ai-finance-engineer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI Finance Engineer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The AI Finance Engineer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-an-ai-finance-engineer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is an AI Finance Engineer?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-different-finance-careers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Different Finance Careers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why This Matters for Different Finance Careers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#investment-banking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Investment Banking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equity-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equity Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#private-equity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private Equity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corporate-finance-and-fpa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corporate Finance and FP&amp;A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mba-students-and-early-career-professionals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MBA Students and Early Career Professionals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from-tool-user-to-tool-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From Tool User to Tool Builder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-core-beliefs-behind-this-handbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Core Beliefs Behind This Handbook
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Core Beliefs Behind This Handbook">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#belief-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belief 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Belief 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#everyone-should-learn-at-least-some-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Everyone Should Learn (At Least Some) Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belief-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belief 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Belief 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-has-altered-the-learning-curve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI has Altered the Learning Curve
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belief-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belief 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Belief 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#building-is-the-best-way-to-learn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building Is the Best Way to Learn
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercises
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercise-1-analyze-your-current-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 1: Analyze Your Current Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-2-identify-a-finance-system-you-could-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 2: Identify a Finance System You Could Build
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-3-change-your-mindset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 3: Change Your Mindset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Chapter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Next Chapter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-ai-first-engineering-mindset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AI-First Engineering Mindset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-1">Chapter 1</h1>
+<h2 id="why-every-finance-professional-should-learn-to-build-applications">Why Every Finance Professional Should Learn to Build Applications</h2>
+<h3 id="the-beginning-of-a-new-finance-era">The Beginning of a New Finance Era</h3>
+<p>For more than three decades, Microsoft Excel has been the defining technology of finance.</p>
+<p>Investment bankers built valuation models in Excel.</p>
+<p>Equity research analysts forecast earnings in Excel.</p>
+<p>Private equity professionals evaluated acquisitions in Excel.</p>
+<p>FP&amp;A teams planned budgets in Excel.</p>
+<p>MBA students learned corporate finance through Excel.</p>
+<p>Excel became the universal language of finance because it provided something revolutionary:</p>
+<p>A flexible environment where financial professionals could translate business assumptions into financial decisions.</p>
+<p>A revenue forecast could become a valuation.</p>
+<p>A debt schedule could become a financing strategy.</p>
+<p>A set of financial statements could become an investment thesis.</p>
+<p>The spreadsheet transformed finance from a discipline based primarily on historical reporting into a discipline based on forward-looking analysis.</p>
+<p>However, the world of finance has changed.</p>
+<p>Companies today generate enormous volumes of information:</p>
+<ul>
+<li>quarterly financial statements</li>
+<li>market prices</li>
+<li>earnings transcripts</li>
+<li>investor presentations</li>
+<li>customer data</li>
+<li>alternative datasets</li>
+<li>operational metrics</li>
+<li>macroeconomic indicators</li>
+<li>regulatory filings</li>
+</ul>
+<p>The challenge facing modern finance professionals is no longer simply:</p>
+<blockquote>
+<p>"Can you build a financial model?"</p>
+</blockquote>
+<p>The challenge is:</p>
+<blockquote>
+<p>"Can you design a system that continuously collects, processes, analyzes, and communicates financial information?"</p>
+</blockquote>
+<p>This is the transition from financial modeling to financial engineering.</p>
+<hr />
+<h2 id="learning-objectives">Learning Objectives</h2>
+<p>By the end of this chapter, you will understand:</p>
+<ul>
+<li>Why software engineering is becoming an essential skill for finance professionals</li>
+<li>Why artificial intelligence changes the role of analysts rather than eliminating them</li>
+<li>Why traditional spreadsheet workflows are reaching their limits</li>
+<li>How building software improves financial understanding</li>
+<li>The difference between using financial tools and engineering financial systems</li>
+<li>The philosophy behind the AI Finance Dashboard project</li>
+<li>The future skillset of the modern finance professional</li>
+</ul>
+<hr />
+<h2 id="engineering-principles">Engineering Principles</h2>
+<h2 id="principle-1">Principle 1</h2>
+<h3 id="finance-professionals-do-not-need-to-become-software-engineers">Finance Professionals Do Not Need to Become Software Engineers</h3>
+<p>A common misconception about the future of finance is:</p>
+<blockquote>
+<p>"Everyone in finance needs to learn how to code."</p>
+</blockquote>
+<p>This is incomplete.</p>
+<p>The objective is not to transform investment bankers into software engineers.</p>
+<p>The objective is to create finance professionals who understand enough technology to design better solutions.</p>
+<p>A modern analyst does not need to build the next operating system.</p>
+<p>They need to understand:</p>
+<ul>
+<li>how data moves through systems</li>
+<li>how APIs work</li>
+<li>how databases store information</li>
+<li>how applications are structured</li>
+<li>how artificial intelligence can accelerate analysis</li>
+<li>how to communicate technical requirements clearly</li>
+</ul>
+<p>The highest-value finance professionals will sit at the intersection of three disciplines:
+<div class="highlight"><pre><span></span><code>Finance ( Accounting  &amp;  Valuation )
+
+         +
+
+Technology (  Data &amp; Software Systems )
+
+         +
+
+AI ( Automation &amp; Intelligence )
+</code></pre></div></p>
+<p>The competitive advantage will belong to professionals who can connect these worlds.</p>
+<hr />
+<h2 id="principle-2">Principle 2</h2>
+<h3 id="the-future-advantage-is-system-design-not-spreadsheet-speed">The Future Advantage Is System Design, Not Spreadsheet Speed</h3>
+<p>For years, finance recruiting rewarded spreadsheet proficiency.</p>
+<p>Candidates were evaluated on:</p>
+<ul>
+<li>Excel shortcuts</li>
+<li>financial modeling speed</li>
+<li>formatting standards</li>
+<li>valuation mechanics</li>
+</ul>
+<p>These skills remain important.</p>
+<p>However, the definition of excellence is changing.</p>
+<p>Consider two analysts completing a comparable company analysis.</p>
+<h4 id="analyst-a">Analyst A</h4>
+<p>Traditional workflow:</p>
+<div class="highlight"><pre><span></span><code>Download company data
+↓
+Open Excel
+↓
+Copy financial metrics
+↓
+Format spreadsheet
+↓
+Calculate multiples
+↓
+Create presentation
+</code></pre></div>
+<p>This process may take several hours.</p>
+<p>Every update requires repeating the process.</p>
+<hr />
+<h4 id="analyst-b">Analyst B</h4>
+<p>AI Finance Engineer workflow:</p>
+<div class="highlight"><pre><span></span><code>Design analytical framework
+↓
+Connect financial data APIs
+↓
+Create automated data pipeline
+↓
+Build valuation engine
+↓
+Create interactive dashboard
+↓
+Generate insights with AI
+</code></pre></div>
+<p>The second analyst has not eliminated finance.</p>
+<p>They have amplified it.</p>
+<p>The difference is not that Analyst B understands finance better.</p>
+<p>The difference is that Analyst B understands how to build systems around finance.</p>
+<hr />
+<h2 id="principle-3">Principle 3</h2>
+<h3 id="technology-should-amplify-judgment-not-replace-it">Technology Should Amplify Judgment, Not Replace It</h3>
+<p>One of the biggest misconceptions about artificial intelligence is that AI will replace finance professionals.</p>
+<p>A more accurate perspective is:</p>
+<p>AI replaces repetitive processes.</p>
+<p>Finance professionals provide:</p>
+<ul>
+<li>judgment</li>
+<li>interpretation</li>
+<li>strategic thinking</li>
+<li>business understanding</li>
+<li>investment conclusions</li>
+</ul>
+<p>Consider an equity research analyst.</p>
+<p>The valuable question is not:</p>
+<blockquote>
+<p>"Can you calculate revenue growth?"</p>
+</blockquote>
+<p>A computer can do this instantly.</p>
+<p>The valuable question is:</p>
+<blockquote>
+<p>"Why is revenue growth accelerating, and what does it mean for future valuation?"</p>
+</blockquote>
+<p>AI can help gather information.</p>
+<p>AI can help analyze trends.</p>
+<p>AI can help identify patterns.</p>
+<p>But the investment decision still requires human judgment.</p>
+<p>The future finance professional is not competing against AI.</p>
+<p>The future finance professional is competing against professionals who use AI effectively.</p>
+<hr />
+<h2 id="the-evolution-of-financial-work">The Evolution of Financial Work</h2>
+<p>To understand where finance is going, we need to understand where it has been.</p>
+<h3 id="phase-1-manual-finance">Phase 1: Manual Finance</h3>
+<p>Before spreadsheets became dominant, finance relied heavily on:</p>
+<ul>
+<li>paper statements</li>
+<li>calculators</li>
+<li>manual calculations</li>
+<li>handwritten analysis</li>
+</ul>
+<p>The analyst's advantage came from accuracy and diligence.</p>
+<hr />
+<h3 id="phase-2-spreadsheet-finance">Phase 2: Spreadsheet Finance</h3>
+<p>The introduction of Excel transformed finance.</p>
+<p>A financial model became dynamic.</p>
+<p>Changing one assumption could update:</p>
+<ul>
+<li>revenue forecasts</li>
+<li>cash flows</li>
+<li>valuation</li>
+<li>returns</li>
+</ul>
+<p>Excel created the modern investment banking workflow.</p>
+<div class="highlight"><pre><span></span><code>Assumptions
+↓
+Financial Model
+↓
+Valuation
+↓
+Investment Decision
+</code></pre></div>
+<hr />
+<h3 id="phase-3-data-driven-finance">Phase 3: Data-Driven Finance</h3>
+<p>The explosion of digital information created a new challenge.</p>
+<p>Finance professionals now had access to:</p>
+<ul>
+<li>thousands of companies</li>
+<li>millions of financial datapoints</li>
+<li>real-time market information</li>
+</ul>
+<p>The problem became information management.</p>
+<hr />
+<h3 id="phase-4-ai-assisted-financial-engineering">Phase 4: AI-Assisted Financial Engineering</h3>
+<p>We are now entering a new phase.</p>
+<p>The finance professional is becoming a builder.</p>
+<p>The workflow is evolving:</p>
+<p><strong>Old Model:</strong>
+<div class="highlight"><pre><span></span><code>Data
+↓
+Excel
+↓
+Analysis
+↓
+Presentation
+</code></pre></div></p>
+<p><strong>New Model:</strong></p>
+<div class="highlight"><pre><span></span><code>Data Sources
+↓
+Data Pipeline
+↓
+Analytics Engine
+↓
+AI Layer
+↓
+Interactive Dashboard
+↓
+Human Decision Making
+</code></pre></div>
+<p>The AI Finance Dashboard represents this evolution.</p>
+<hr />
+<h2 id="why-this-handbook-exists">Why This Handbook Exists</h2>
+<p>Most artificial intelligence education begins with prompts.</p>
+<p>This handbook intentionally begins somewhere else.</p>
+<p>Before learning:</p>
+<ul>
+<li>prompt engineering</li>
+<li>AI coding assistants</li>
+<li>automation techniques</li>
+</ul>
+<p>you must understand the fundamental question:</p>
+<blockquote>
+<p>Why should a finance professional learn engineering at all?</p>
+</blockquote>
+<p>Without this foundation, AI becomes a collection of tricks.</p>
+<p>With this foundation, AI becomes a capability.</p>
+<p>The goal of this handbook is not to teach someone how to ask ChatGPT better questions.</p>
+<p>The goal is to teach finance professionals how to build institutional-quality analytical systems.</p>
+<hr />
+<h2 id="the-4matr-philosophy">The 4MATR Philosophy</h2>
+<p>The mission of 4MATR Academy is based on a simple belief:</p>
+<blockquote>
+<p>The future belongs to professionals who combine finance expertise with technological fluency.</p>
+</blockquote>
+<p>The traditional finance education model teaches:</p>
+<ul>
+<li>accounting</li>
+<li>valuation</li>
+<li>financial modeling</li>
+<li>presentation skills</li>
+</ul>
+<p>These remain essential.</p>
+<p>However, modern finance requires additional capabilities:</p>
+<ul>
+<li>data engineering</li>
+<li>software architecture</li>
+<li>artificial intelligence</li>
+<li>automation</li>
+<li>system design</li>
+</ul>
+<p>The next generation of finance professionals should be able to answer questions like:</p>
+<p>"Where does this data come from?"</p>
+<p>"How does this analysis update automatically?"</p>
+<p>"Can this workflow become a reusable system?"</p>
+<p>"How can AI improve this process?"</p>
+<hr />
+<h2 id="building-applications-creates-better-finance-professionals">Building Applications Creates Better Finance Professionals</h2>
+<p>One of the most powerful ideas behind this handbook is:</p>
+<blockquote>
+<p>Building financial applications forces deeper financial understanding.</p>
+</blockquote>
+<p>A person who only uses a valuation model understands inputs and outputs.</p>
+<p>A person who builds a valuation engine understands the underlying mechanics.</p>
+<p>Consider building a comparable company analysis platform.</p>
+<p>To create it, you must understand:</p>
+<h3 id="market-data">Market Data</h3>
+<p>Where does share price data come from?</p>
+<p>How frequently does it update?</p>
+<p>How do you handle missing information?</p>
+<hr />
+<h3 id="capital-structure">Capital Structure</h3>
+<p>How do you calculate:</p>
+<ul>
+<li>enterprise value?</li>
+<li>equity value?</li>
+<li>net debt?</li>
+<li>minority interest?</li>
+</ul>
+<hr />
+<h3 id="financial-statements">Financial Statements</h3>
+<p>How do you interpret:</p>
+<ul>
+<li>revenue</li>
+<li>EBITDA</li>
+<li>EBIT</li>
+<li>free cash flow?</li>
+</ul>
+<hr />
+<h3 id="valuation">Valuation</h3>
+<p>How do you calculate:</p>
+<ul>
+<li>EV/Revenue</li>
+<li>EV/EBITDA</li>
+<li>P/E</li>
+<li>growth-adjusted multiples?</li>
+</ul>
+<hr />
+<h3 id="engineering">Engineering</h3>
+<p>How do you:</p>
+<ul>
+<li>structure the code?</li>
+<li>manage errors?</li>
+<li>test outputs?</li>
+<li>deploy the application?</li>
+</ul>
+<div class="highlight"><pre><span></span><code>Building the Tool
+
+    ↓
+
+Understanding the Finance
+
+    ↓
+
+Becoming a Better Analyst
+</code></pre></div>
+<p>The process of building creates mastery.</p>
+<h2 id="the-ai-finance-dashboard-journey">The AI Finance Dashboard Journey</h2>
+<p>Every major technological transformation begins with a simple question:</p>
+<blockquote>
+<p>"What if this process could be fundamentally better?"</p>
+</blockquote>
+<p>The AI Finance Dashboard began with this question.</p>
+<p>Financial professionals spend enormous amounts of time performing repetitive analytical tasks:</p>
+<ul>
+<li>downloading market data</li>
+<li>updating comparable company analysis</li>
+<li>refreshing valuation outputs</li>
+<li>reviewing financial statements</li>
+<li>creating summary dashboards</li>
+<li>preparing investment committee materials</li>
+</ul>
+<p>These tasks are important.</p>
+<p>However, much of the time is spent not on analysis, but on preparing the information required to perform analysis.</p>
+<p>The opportunity is to build systems that automate the mechanical parts of financial analysis while preserving the intellectual parts.</p>
+<hr />
+<h2 id="the-problem-we-are-solving">The Problem We Are Solving</h2>
+<p>Imagine an investment analyst evaluating a public company.</p>
+<p>The traditional workflow might look like this:</p>
+<div class="highlight"><pre><span></span><code>Step 1:
+Find company filings
+
+    ↓
+
+Step 2:
+Download financial statements
+
+    ↓
+
+Step 3:
+Collect market capitalization
+
+    ↓
+
+Step 4:
+Calculate enterprise value
+
+    ↓
+
+Step 5:
+Build comparable company analysis
+
+    ↓
+
+Step 6:
+Review valuation multiples
+
+    ↓
+
+Step 7:
+Prepare presentation
+</code></pre></div>
+<p>This workflow works.</p>
+<p>However, it has several limitations:</p>
+<h3 id="1-it-is-manual">1. It is Manual</h3>
+<p>Every new company requires repeating the process.</p>
+<p>Every earnings release requires updating the model.</p>
+<p>Every market movement requires refreshing calculations.</p>
+<hr />
+<h3 id="2-it-is-difficult-to-scale">2. It Is Difficult to Scale</h3>
+<p>An analyst can realistically analyze:</p>
+<ul>
+<li>10 companies</li>
+<li>50 companies</li>
+<li>perhaps 100 companies</li>
+</ul>
+<p>But institutional investors may monitor thousands of companies.</p>
+<p>The limitation is not financial knowledge.</p>
+<p>The limitation is workflow design.</p>
+<hr />
+<h3 id="3-knowledge-is-trapped-in-individual-files">3. Knowledge Is Trapped in Individual Files</h3>
+<p>A traditional Excel model often exists as:</p>
+<div class="highlight"><pre><span></span><code>Company A Model.xlsx
+
+Company B Model.xlsx
+
+Company C Model.xlsx
+</code></pre></div>
+<p>The information is fragmented.</p>
+<p>The process is difficult to reproduce.</p>
+<p>The system is difficult to improve.</p>
+<hr />
+<h2 id="the-ai-finance-dashboard-vision">The AI Finance Dashboard Vision</h2>
+<p>The AI Finance Dashboard was conceived with the vision of reimagining the financial analysis workflow.</p>
+<p>Instead of isolated spreadsheets, we eventually aim to create an integrated financial system.</p>
+<pre><code>            Financial Data Sources
+
+                      ↓
+
+               Data Pipeline
+
+                      ↓
+
+          Financial Analytics Engine
+
+                      ↓
+
+        AI-Assisted Interpretation
+
+                      ↓
+
+            Interactive Dashboard
+
+                      ↓
+
+         Human Investment Judgment
+</code></pre>
+<p>The objective is not to replace Excel.</p>
+<p>Excel remains one of the most important tools in finance.</p>
+<p>The objective is to extend Excel thinking into software architecture.</p>
+<hr />
+<h2 id="what-are-we-building">What Are We Building?</h2>
+<p>Throughout this handbook, we will outline the vision of building a professional finance platform containing:</p>
+<h3 id="public-comparables-engine">Public Comparables Engine</h3>
+<p>A system capable of analyzing:</p>
+<ul>
+<li>market capitalization</li>
+<li>enterprise value</li>
+<li>revenue multiples</li>
+<li>EBITDA multiples</li>
+<li>profitability metrics</li>
+<li>growth rates</li>
+</ul>
+<hr />
+<h3 id="financial-statement-analysis-engine">Financial Statement Analysis Engine</h3>
+<p>A structured system for analyzing:</p>
+<ul>
+<li>income statements</li>
+<li>balance sheets</li>
+<li>cash flow statements</li>
+<li>historical trends</li>
+<li>financial performance</li>
+</ul>
+<hr />
+<h3 id="valuation-engine">Valuation Engine</h3>
+<p>Including:</p>
+<ul>
+<li>trading multiples</li>
+<li>DCF analysis</li>
+<li>sensitivity analysis</li>
+<li>valuation summaries</li>
+</ul>
+<hr />
+<h3 id="company-intelligence-pages">Company Intelligence Pages</h3>
+<p>Interactive pages containing:</p>
+<ul>
+<li>company overview</li>
+<li>financial metrics</li>
+<li>valuation outputs</li>
+<li>key insights</li>
+</ul>
+<hr />
+<h3 id="ai-assistance-layer">AI Assistance Layer</h3>
+<p>Using AI for:</p>
+<ul>
+<li>code generation</li>
+<li>debugging</li>
+<li>documentation</li>
+<li>analysis</li>
+<li>workflow improvement</li>
+</ul>
+<hr />
+<h2 id="the-journey-from-analyst-to-builder">The Journey From Analyst to Builder</h2>
+<p>The purpose of this project is not simply to create another dashboard.</p>
+<p>The deeper purpose is transformation.</p>
+<p>A traditional finance learning journey:</p>
+<div class="highlight"><pre><span></span><code>Learn Accounting
+
+    ↓
+
+Learn Excel
+
+    ↓
+
+Build Models
+
+    ↓
+
+Create Presentations
+</code></pre></div>
+<p>An AI Finance Engineering journey:</p>
+<div class="highlight"><pre><span></span><code>Learn Accounting
+
+    ↓
+
+Learn Financial Modeling
+
+    ↓
+
+Understand Data
+
+    ↓
+
+Build Software Systems
+
+    ↓
+
+Use AI as Engineering Partner
+
+    ↓
+
+Create Institutional Tools
+</code></pre></div>
+<p>The second journey creates a different type of professional.</p>
+<p>Someone who does not simply consume information.</p>
+<p>Someone who builds infrastructure for decision-making.</p>
+<hr />
+<h2 id="the-new-finance-professional-skill-stack">The New Finance Professional Skill Stack</h2>
+<p>The modern finance professional requires a broader toolkit.</p>
+<p>The traditional finance stack:</p>
+<div class="highlight"><pre><span></span><code>Accounting
+
+Financial Modeling
+
+Valuation
+
+PowerPoint
+
+Communication
+</code></pre></div>
+<p>remains foundational.</p>
+<p>However, the emerging finance stack adds:</p>
+<div class="highlight"><pre><span></span><code>Data Analysis
+
+Python
+
+APIs
+
+Software Architecture
+
+Artificial Intelligence
+
+Automation
+
+Version Control
+
+Cloud Deployment
+</code></pre></div>
+<p>The complete skill stack becomes:</p>
+<p><div class="highlight"><pre><span></span><code>             Finance
+
+    ( Accounting | Valuation )
+
+                +
+
+          Technology
+
+   ( Data | Software | Systems )
+
+                +
+
+               AI
+
+    ( Automation | Intelligence )
+</code></pre></div>
+This combination creates a new category:</p>
+<h2 id="the-ai-finance-engineer">The AI Finance Engineer</h2>
+<hr />
+<h3 id="what-is-an-ai-finance-engineer">What Is an AI Finance Engineer?</h3>
+<p>An AI Finance Engineer is not a traditional software engineer.</p>
+<p>They are not building operating systems.</p>
+<p>They are specialists who understand financial problems deeply enough to create technological solutions.</p>
+<p>They can:</p>
+<ul>
+<li>understand a company's financial statements</li>
+<li>build valuation models</li>
+<li>access financial data</li>
+<li>automate analysis</li>
+<li>create dashboards</li>
+<li>use AI effectively</li>
+<li>communicate insights</li>
+</ul>
+<p>They combine analytical depth with engineering capability.</p>
+<hr />
+<h3 id="why-this-matters-for-different-finance-careers">Why This Matters for Different Finance Careers</h3>
+<p>The value of engineering differs across finance roles.</p>
+<hr />
+<h4 id="investment-banking">Investment Banking</h4>
+<p>Traditional banking workflow:</p>
+<div class="highlight"><pre><span></span><code>Client Request
+
+  ↓
+
+Analyst Research
+
+  ↓
+
+Excel Model
+
+  ↓
+
+PowerPoint Output
+</code></pre></div>
+<p>Future workflow:</p>
+<div class="highlight"><pre><span></span><code>Client Request
+
+  ↓
+
+Automated Data Systems
+
+  ↓
+
+Dynamic Financial Models
+
+  ↓
+
+AI-Assisted Analysis
+
+  ↓
+
+Strategic Recommendation
+</code></pre></div>
+<p>The banker still provides judgment.</p>
+<p>Technology accelerates preparation.</p>
+<hr />
+<h4 id="equity-research">Equity Research</h4>
+<p>Research analysts constantly evaluate companies.</p>
+<p>An AI-enabled analyst can:</p>
+<ul>
+<li>automatically monitor filings</li>
+<li>track competitor performance</li>
+<li>update valuation models</li>
+<li>identify unusual trends</li>
+<li>generate research summaries</li>
+</ul>
+<p>The analyst spends less time collecting information.</p>
+<p>More time is spent interpreting information.</p>
+<hr />
+<h4 id="private-equity">Private Equity</h4>
+<p>Private equity professionals evaluate hundreds of opportunities.</p>
+<p>Software can assist with:</p>
+<ul>
+<li>screening companies</li>
+<li>financial analysis</li>
+<li>market monitoring</li>
+<li>investment memo preparation</li>
+</ul>
+<p>The competitive advantage becomes speed and consistency.</p>
+<hr />
+<h4 id="corporate-finance-and-fpa">Corporate Finance and FP&amp;A</h4>
+<p>Corporate finance teams manage:</p>
+<ul>
+<li>budgets</li>
+<li>forecasts</li>
+<li>reporting</li>
+<li>strategic analysis</li>
+</ul>
+<p>AI-powered systems can improve:</p>
+<ul>
+<li>forecasting accuracy</li>
+<li>reporting automation</li>
+<li>scenario analysis</li>
+<li>management dashboards</li>
+</ul>
+<hr />
+<h4 id="mba-students-and-early-career-professionals">MBA Students and Early Career Professionals</h4>
+<p>For students entering finance, the opportunity is significant.</p>
+<p>Historically, students competed through:</p>
+<ul>
+<li>grades</li>
+<li>internships</li>
+<li>technical knowledge</li>
+</ul>
+<p>Increasingly, differentiation will come from building.</p>
+<p>A candidate who can demonstrate:</p>
+<p>"I built an AI-powered valuation platform"</p>
+<p>has demonstrated:</p>
+<ul>
+<li>finance knowledge</li>
+<li>technical curiosity</li>
+<li>problem-solving ability</li>
+<li>initiative</li>
+</ul>
+<p>The project itself becomes proof of capability.</p>
+<hr />
+<h2 id="from-tool-user-to-tool-builder">From Tool User to Tool Builder</h2>
+<p>One of the most important mindset shifts is moving from consumer to creator.</p>
+<p>A tool user asks:</p>
+<blockquote>
+<p>"How do I use this spreadsheet?"</p>
+</blockquote>
+<p>A tool builder asks:</p>
+<blockquote>
+<p>"How should this process be designed?"</p>
+</blockquote>
+<p>A tool user asks:</p>
+<blockquote>
+<p>"Where can I find this information?"</p>
+</blockquote>
+<p>A tool builder asks:</p>
+<blockquote>
+<p>"How can this information flow automatically?"</p>
+</blockquote>
+<p>A tool user asks:</p>
+<blockquote>
+<p>"How do I complete this analysis?"</p>
+</blockquote>
+<p>A tool builder asks:</p>
+<blockquote>
+<p>"How can this analysis become a repeatable system?"</p>
+</blockquote>
+<p>This mindset shift is the foundation of financial engineering.</p>
+<hr />
+<h2 id="the-core-beliefs-behind-this-handbook">The Core Beliefs Behind This Handbook</h2>
+<p>This handbook follows three beliefs.</p>
+<hr />
+<h3 id="belief-1">Belief 1</h3>
+<h4 id="everyone-should-learn-at-least-some-engineering">Everyone Should Learn (At Least Some) Engineering</h4>
+<p>Programming is often treated as a specialized skill.</p>
+<p>It should not be.</p>
+<p>At its core, programming is structured problem solving.</p>
+<p>Finance professionals already do this.</p>
+<p>A financial model is essentially a program.</p>
+<p><strong>Inputs:</strong></p>
+<div class="highlight"><pre><span></span><code>Revenue Growth
+
+Margins
+
+Tax Rate
+
+Capital Expenditure
+
+Working Capital
+</code></pre></div>
+<p><strong>Processing:</strong>
+<div class="highlight"><pre><span></span><code>Forecast Financial Statements
+
+Calculate Cash Flows
+
+Apply Valuation Methodology
+</code></pre></div></p>
+<p><strong>Outputs:</strong></p>
+<div class="highlight"><pre><span></span><code>Enterprise Value
+
+Equity Value
+
+Investment Return
+</code></pre></div>
+<p>The difference is that software engineering applies this thinking beyond spreadsheets.</p>
+<hr />
+<h3 id="belief-2">Belief 2</h3>
+<h4 id="ai-has-altered-the-learning-curve">AI has Altered the Learning Curve</h4>
+<p>Historically, learning software development required:</p>
+<ul>
+<li>years of programming experience</li>
+<li>understanding complex syntax</li>
+<li>reading technical documentation</li>
+<li>debugging independently</li>
+</ul>
+<p>AI has changed this.</p>
+<p>An AI assistant can now help:</p>
+<ul>
+<li>explain code</li>
+<li>generate examples</li>
+<li>identify errors</li>
+<li>suggest improvements</li>
+<li>document systems</li>
+</ul>
+<p>The barrier to entry has decreased.</p>
+<p>However, the importance of fundamentals has increased.</p>
+<p>AI can generate code.</p>
+<p>Humans must design systems.</p>
+<hr />
+<h3 id="belief-3">Belief 3</h3>
+<h4 id="building-is-the-best-way-to-learn">Building Is the Best Way to Learn</h4>
+<p>Theoretical learning has limitations.</p>
+<p>Reading about financial systems is useful.</p>
+<p>Building financial systems creates understanding.</p>
+<p>A student who builds a DCF engine understands:</p>
+<ul>
+<li>discount rates</li>
+<li>cash flows</li>
+<li>terminal value</li>
+<li>sensitivity analysis</li>
+</ul>
+<p>A student who builds a data pipeline understands:</p>
+<ul>
+<li>data quality</li>
+<li>automation</li>
+<li>reliability</li>
+</ul>
+<p>A student who deploys an application understands:</p>
+<ul>
+<li>software lifecycle</li>
+<li>testing</li>
+<li>production challenges</li>
+</ul>
+<p>The project becomes the classroom.</p>
+<hr />
+<h2 id="chapter-summary">Chapter Summary</h2>
+<p>The finance profession is entering a new era.</p>
+<p>The successful finance professional of tomorrow will not simply analyze information.</p>
+<p>They will build systems that analyze information.</p>
+<p>The competitive advantage will come from combining:</p>
+<ul>
+<li>finance expertise</li>
+<li>software engineering principles</li>
+<li>artificial intelligence</li>
+</ul>
+<p>The purpose of this handbook is to guide you through that transformation.</p>
+<p>By the end of this journey, you will not simply understand how AI can assist finance.</p>
+<p>You will understand how to build AI-powered financial systems.</p>
+<hr />
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ol>
+<li>
+<p>Finance is becoming increasingly technology-driven.</p>
+</li>
+<li>
+<p>AI will amplify finance professionals who understand how to use it effectively.</p>
+</li>
+<li>
+<p>The future advantage is not faster spreadsheet work but better system design.</p>
+</li>
+<li>
+<p>Building financial software improves understanding of finance itself.</p>
+</li>
+<li>
+<p>Modern finance professionals should understand:</p>
+</li>
+<li>data pipelines</li>
+<li>APIs</li>
+<li>software architecture</li>
+<li>
+<p>AI workflows</p>
+</li>
+<li>
+<p>The goal is not to become a software engineer.</p>
+</li>
+<li>
+<p>The goal is to become a finance professional capable of engineering solutions.</p>
+</li>
+</ol>
+<hr />
+<h2 id="exercises">Exercises</h2>
+<h3 id="exercise-1-analyze-your-current-workflow">Exercise 1: Analyze Your Current Workflow</h3>
+<p>Identify three finance tasks you perform regularly.</p>
+<p>For each task, answer:</p>
+<ol>
+<li>What information is required?</li>
+<li>Where does that information come from?</li>
+<li>How is it processed?</li>
+<li>What output is created?</li>
+<li>Which steps are repetitive?</li>
+</ol>
+<p><strong>Example:</strong></p>
+<p>Task:</p>
+<div class="highlight"><pre><span></span><code>Comparable Company Analysis
+</code></pre></div>
+<p>Inputs:</p>
+<div class="highlight"><pre><span></span><code>Financial statements
+Share price
+Shares outstanding
+</code></pre></div>
+<p>Process:</p>
+<div class="highlight"><pre><span></span><code>Calculate valuation multiples
+</code></pre></div>
+<p>Output:</p>
+<div class="highlight"><pre><span></span><code>Trading multiples table
+</code></pre></div>
+<hr />
+<h3 id="exercise-2-identify-a-finance-system-you-could-build">Exercise 2: Identify a Finance System You Could Build</h3>
+<p>Choose one workflow.</p>
+<p>Examples:</p>
+<ul>
+<li>valuation tracker</li>
+<li>investment dashboard</li>
+<li>portfolio monitor</li>
+<li>financial statement analyzer</li>
+<li>budgeting tool</li>
+</ul>
+<p>Describe:</p>
+<ol>
+<li>The problem</li>
+<li>The data required</li>
+<li>The calculations required</li>
+<li>The final user experience</li>
+</ol>
+<hr />
+<h3 id="exercise-3-change-your-mindset">Exercise 3: Change Your Mindset</h3>
+<p>Complete this sentence:</p>
+<p>"Instead of manually doing <strong><em>_</em></strong><strong><em>_</em>, I could build a system that </strong><strong><em>_</em></strong>___."</p>
+<p>Examples:</p>
+<p>"Instead of manually updating comparable companies, I could build a system that refreshes valuation metrics automatically."</p>
+<hr />
+<h2 id="next-chapter">Next Chapter</h2>
+<h3 id="chapter-2">Chapter 2</h3>
+<h4 id="the-ai-first-engineering-mindset">The AI-First Engineering Mindset</h4>
+<p>In the next chapter, we explore the fundamental shift required to work effectively with artificial intelligence:</p>
+<p>From:</p>
+<p>"AI as a chatbot"</p>
+<p>to:</p>
+<p>"AI as an engineering partner."</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
